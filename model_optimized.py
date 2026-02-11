@@ -1,10 +1,23 @@
 """
 Modelo Otimizado para Maximizar Pontuação no Bolão
 Estratégia: Placares conservadores (0-2 gols) para maximizar pontos
+Versão sem scipy - usa apenas numpy
 """
 
 import numpy as np
-from scipy.stats import poisson
+
+def poisson_pmf(k, lam):
+    """
+    Calcula probabilidade de Poisson sem scipy
+    P(X=k) = (λ^k * e^(-λ)) / k!
+    """
+    if lam <= 0:
+        return 0.0
+    
+    # Usar log para evitar overflow
+    log_prob = k * np.log(lam) - lam - np.sum(np.log(np.arange(1, k + 1))) if k > 0 else -lam
+    return np.exp(log_prob)
+
 
 def predict_match_optimized(home_stats, away_stats, max_goals=2):
     """
@@ -51,7 +64,7 @@ def predict_match_optimized(home_stats, away_stats, max_goals=2):
     
     prob_scores = {}
     for h, a in placares_conservadores:
-        prob = poisson.pmf(h, lambda_home) * poisson.pmf(a, lambda_away)
+        prob = poisson_pmf(h, lambda_home) * poisson_pmf(a, lambda_away)
         prob_scores[(h, a)] = prob
     
     # Normalizar probabilidades
