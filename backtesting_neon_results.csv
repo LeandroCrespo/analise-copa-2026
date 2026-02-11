@@ -1,110 +1,2288 @@
 match,real,pred,exact,result,pts
-Brazil vs Uruguay,2x2,1x1,False,True,10
-Canada vs Mexico,0x3,1x1,False,False,0
-Guatemala vs United States,2x0,1x2,False,False,0
-Haiti vs Panama,0x0,1x1,False,True,10
-Republic of Ireland vs Switzerland,1x0,1x2,False,False,0
-Jamaica vs Comoros,1x1,1x1,True,True,20
-Portugal vs Bulgaria,0x1,2x0,False,False,0
-Hungary vs Congo,1x1,1x2,False,False,0
-Cape Verde vs Morocco,0x1,2x0,False,False,0
-Germany vs England,2x3,2x2,False,False,0
-Poland vs Finland,5x0,2x1,False,True,10
-Senegal vs Niger,2x0,2x1,False,True,15
-Romania vs Spain,0x0,1x2,False,False,0
-Thailand vs South Korea,0x1,1x2,False,True,10
-Ukraine vs Wales,1x0,1x1,False,False,0
-Estonia vs Serbia,0x1,1x2,False,True,10
-France vs Russia,4x2,2x1,False,True,10
-Japan vs Syria,5x0,3x0,False,True,15
-Mexico vs Canada,2x0,1x1,False,False,0
-Morocco vs Cape Verde,2x0,1x1,False,False,0
-Panama vs Haiti,1x0,1x1,False,False,0
-Paraguay vs Brazil,2x2,1x2,False,False,0
-Portugal vs Belgium,2x1,1x2,False,False,0
-Scotland vs Denmark,1x0,2x2,False,False,0
-Switzerland vs Bosnia and Herzegovina,0x2,2x1,False,False,0
-United Arab Emirates vs Saudi Arabia,1x1,1x2,False,False,0
-Uruguay vs Peru,1x0,2x1,False,True,10
-United States vs Guatemala,4x0,3x1,False,True,10
-Venezuela vs Central African Republic,1x4,2x2,False,False,0
-Niger vs Senegal,1x2,2x2,False,False,0
-Argentina vs Bolivia,2x0,3x0,False,True,15
-Comoros vs Jamaica,3x0,1x1,False,False,0
-Martinique vs Panama,0x2,2x1,False,False,0
-Puerto Rico vs United States,1x3,2x2,False,False,0
-England vs Turkey,2x1,2x1,True,True,20
-Peru vs Trinidad and Tobago,4x0,2x2,False,False,0
-Serbia vs Croatia,2x1,2x1,True,True,20
-Morocco vs Colombia,2x0,2x1,False,True,15
-Uruguay vs Trinidad and Tobago,3x1,2x1,False,True,15
-Comoros vs Venezuela,2x1,2x1,True,True,20
-El Salvador vs Peru,1x3,1x1,False,False,0
-Mexico vs Paraguay,1x0,2x1,False,True,10
-Rwanda vs Senegal,0x2,2x2,False,False,0
-Switzerland vs Belgium,1x2,2x2,False,False,0
-Bosnia and Herzegovina vs Spain,1x3,1x2,False,True,15
-Germany vs Slovakia,1x3,2x1,False,False,0
-Portugal vs Norway,3x0,2x1,False,True,10
-France vs Cameroon,3x2,2x1,False,True,10
-Serbia vs Israel,3x1,2x1,False,True,15
-Belgium vs Finland,1x1,2x1,False,False,0
-Spain vs South Korea,6x1,1x1,False,False,0
-England vs Portugal,1x0,2x1,False,True,10
-Azerbaijan vs Canada,1x1,1x2,False,False,0
-Bosnia and Herzegovina vs Denmark,2x2,2x1,False,False,0
-Japan vs Bulgaria,7x2,3x0,False,True,10
-Libya vs Morocco,1x1,1x1,True,True,20
+Bosnia and Herzegovina vs Iceland,3x0,2x1,False,True,10
+Slovakia vs Luxembourg,0x0,2x1,False,False,0
+Suriname vs Mexico,0x2,1x2,False,True,15
+Barbados vs Cuba,0x1,2x2,False,False,0
+Australia vs Ecuador,3x1,2x1,False,True,15
+Japan vs Uruguay,1x1,2x1,False,False,0
+South Korea vs Colombia,2x2,2x1,False,False,0
+Kuwait vs Philippines,2x0,1x1,False,False,0
+Saudi Arabia vs Venezuela,1x2,2x1,False,False,0
+Tahiti vs New Caledonia,2x1,2x2,False,False,0
+Uzbekistan vs Bolivia,1x0,2x1,False,True,10
+Nigeria vs Guinea-Bissau,0x1,2x1,False,False,0
+Burkina Faso vs Togo,1x0,2x1,False,True,10
+Cameroon vs Namibia,1x1,2x1,False,False,0
+Egypt vs Malawi,2x0,2x1,False,True,15
+Uganda vs Tanzania,0x1,2x1,False,False,0
+Mali vs Gambia,2x0,2x1,False,True,15
+Ivory Coast vs Comoros,3x1,2x1,False,True,15
+Tunisia vs Libya,3x0,2x1,False,True,10
+South Africa vs Liberia,2x2,2x1,False,False,0
+Senegal vs Mozambique,5x1,2x1,False,True,15
+Gibraltar vs Greece,0x3,1x3,False,True,15
+France vs Netherlands,4x0,2x2,False,False,0
+Czech Republic vs Poland,3x1,2x2,False,False,0
+Austria vs Azerbaijan,4x1,2x1,False,True,15
+Sweden vs Belgium,0x3,1x2,False,True,10
+Bulgaria vs Montenegro,0x1,2x1,False,False,0
+Serbia vs Lithuania,2x0,2x1,False,True,15
+Grenada vs United States,1x7,1x3,False,True,15
+Bahamas vs Trinidad and Tobago,0x3,1x1,False,False,0
+Belize vs Guatemala,1x2,1x2,True,True,20
+Germany vs Peru,2x0,2x1,False,True,15
+Indonesia vs Burundi,3x1,2x1,False,True,15
+Morocco vs Brazil,2x1,1x1,False,False,0
+Thailand vs Syria,1x3,2x1,False,False,0
+United Arab Emirates vs Tajikistan,0x0,2x1,False,False,0
+Scotland vs Cyprus,3x0,2x1,False,True,10
+Spain vs Norway,3x0,2x1,False,True,10
+Croatia vs Wales,1x1,2x1,False,False,0
+Armenia vs Turkey,1x2,1x2,True,True,20
+Belarus vs Switzerland,0x5,1x2,False,True,10
+Israel vs Kosovo,1x1,2x1,False,False,0
+Andorra vs Romania,0x2,1x2,False,True,15
+Martinique vs Costa Rica,1x2,1x2,True,True,20
+Curaçao vs Canada,0x2,2x2,False,False,0
+Montserrat vs Haiti,0x4,2x2,False,False,0
+Fiji vs Solomon Islands,0x2,2x2,False,False,0
+New Zealand vs China PR,2x1,2x1,True,True,20
+Russia vs Iraq,2x0,1x1,False,False,0
+Lesotho vs Zambia,0x2,1x2,False,True,15
+England vs Ukraine,2x0,2x1,False,True,15
+Malta vs Italy,0x2,1x2,False,True,15
+Slovenia vs San Marino,2x0,4x1,False,True,10
+Kazakhstan vs Denmark,3x2,1x2,False,False,0
+Northern Ireland vs Finland,0x1,1x1,False,False,0
+Liechtenstein vs Iceland,0x7,1x2,False,True,10
+Luxembourg vs Portugal,0x6,1x2,False,True,10
+Slovakia vs Bosnia and Herzegovina,2x0,2x1,False,True,15
+Mexico vs Jamaica,2x2,2x1,False,False,0
+Cuba vs Guadeloupe,1x0,2x1,False,True,10
+Chile vs Paraguay,3x2,2x1,False,True,10
+Greece vs Lithuania,0x0,2x1,False,False,0
+North Macedonia vs Faroe Islands,1x0,2x1,False,True,10
+Oman vs Lebanon,2x0,2x1,False,True,15
+Guinea-Bissau vs Nigeria,0x1,1x2,False,True,10
+Angola vs Ghana,1x1,1x1,True,True,20
+Niger vs Algeria,0x1,1x2,False,True,10
+Republic of Ireland vs France,0x1,1x2,False,True,10
+Netherlands vs Gibraltar,3x0,4x1,False,True,10
+Poland vs Albania,1x0,2x1,False,True,10
+Moldova vs Czech Republic,0x0,1x2,False,False,0
+Austria vs Estonia,2x1,2x1,True,True,20
+Sweden vs Azerbaijan,5x0,2x1,False,True,10
+Hungary vs Bulgaria,3x0,2x1,False,True,10
+Montenegro vs Serbia,0x2,1x2,False,True,15
+United States vs El Salvador,1x0,2x1,False,True,10
+Trinidad and Tobago vs Nicaragua,1x1,2x1,False,False,0
+Guatemala vs French Guiana,4x0,2x1,False,True,10
+Argentina vs Curaçao,7x0,2x1,False,True,10
+Australia vs Ecuador,1x2,2x1,False,False,0
+Bahrain vs Syria,1x0,1x1,False,False,0
+Germany vs Belgium,2x3,2x2,False,False,0
+India vs Kyrgyzstan,2x0,2x1,False,True,15
+Indonesia vs Burundi,2x2,2x1,False,False,0
+Iran vs Kenya,2x1,2x1,True,True,20
+Japan vs Colombia,1x2,2x1,False,False,0
+Jordan vs Philippines,4x0,2x1,False,True,10
+South Korea vs Uruguay,1x2,2x1,False,False,0
+Morocco vs Peru,0x0,2x1,False,False,0
+Saudi Arabia vs Bolivia,1x2,2x1,False,False,0
+United Arab Emirates vs Thailand,2x0,2x1,False,True,15
+Uzbekistan vs Venezuela,1x1,2x1,False,False,0
+Togo vs Burkina Faso,1x1,1x1,True,True,20
+Namibia vs Cameroon,2x1,1x1,False,False,0
+Malawi vs Egypt,0x4,1x1,False,False,0
+Tanzania vs Uganda,0x1,1x1,False,False,0
+Gambia vs Mali,1x0,1x1,False,False,0
+Comoros vs Ivory Coast,0x2,1x2,False,True,15
+Libya vs Tunisia,0x1,1x2,False,True,10
+Liberia vs South Africa,1x2,1x2,True,True,20
+Mozambique vs Senegal,0x1,1x1,False,False,0
+Scotland vs Spain,2x0,1x2,False,False,0
+Georgia vs Norway,1x1,1x2,False,False,0
+Wales vs Latvia,1x0,2x1,False,True,10
+Turkey vs Croatia,0x2,2x1,False,False,0
+Switzerland vs Israel,3x0,2x1,False,True,10
+Romania vs Belarus,2x1,2x1,True,True,20
+Costa Rica vs Panama,0x1,2x1,False,False,0
+Canada vs Honduras,4x1,2x1,False,True,15
+Haiti vs Bermuda,3x1,2x1,False,True,15
+United States vs Mexico,1x1,2x1,False,False,0
+Mexico vs Guatemala,2x0,2x1,False,True,15
+Mexico vs Cameroon,2x2,2x1,False,False,0
+Panama vs Nicaragua,3x2,2x1,False,True,10
+Chile vs Cuba,3x0,2x1,False,True,10
+Guatemala vs Trinidad and Tobago,0x1,2x1,False,False,0
+Uzbekistan vs Oman,3x0,2x1,False,True,10
+Germany vs Ukraine,3x3,2x1,False,False,0
+Morocco vs Cape Verde,0x0,2x1,False,False,0
+Iran vs Afghanistan,6x1,3x1,False,True,15
+Curaçao vs Costa Rica,0x0,2x1,False,False,0
+DR Congo vs Uganda,1x0,1x1,False,False,0
+Indonesia vs Palestine,0x0,2x1,False,False,0
+Malaysia vs Solomon Islands,4x1,1x2,False,False,0
+Uruguay vs Nicaragua,4x1,2x1,False,True,15
+Netherlands vs Croatia,2x4,2x1,False,False,0
+Oman vs Tajikistan,1x1,2x1,False,False,0
+Uzbekistan vs Turkmenistan,2x0,2x1,False,True,15
+Pakistan vs Kenya,0x1,1x2,False,True,10
+Guinea vs Egypt,1x2,1x2,True,True,20
+Panama vs Canada,0x2,1x2,False,True,15
+United States vs Mexico,3x0,2x1,False,True,10
+Argentina vs Australia,2x0,2x1,False,True,15
+Costa Rica vs Guatemala,0x1,1x1,False,False,0
+Honduras vs Venezuela,0x1,2x1,False,False,0
+Jamaica vs Qatar,1x2,2x1,False,False,0
+Japan vs El Salvador,6x0,2x1,False,True,10
+Philippines vs Nepal,1x0,2x1,False,True,10
+Vietnam vs Hong Kong,1x0,2x1,False,True,10
+Spain vs Italy,2x1,2x1,True,True,20
+Curaçao vs Saint Kitts and Nevis,1x1,2x1,False,False,0
+Chile vs Dominican Republic,5x0,2x1,False,True,10
+China PR vs Myanmar,4x0,2x1,False,True,10
+Taiwan vs Thailand,2x2,1x2,False,False,0
+Colombia vs Iraq,1x0,1x1,False,False,0
+South Korea vs Peru,0x1,2x1,False,False,0
+Poland vs Germany,1x0,2x2,False,False,0
+Serbia vs Jordan,3x2,2x1,False,True,10
+Sweden vs New Zealand,4x1,1x1,False,False,0
+Gibraltar vs France,0x3,1x3,False,True,15
+Greece vs Republic of Ireland,2x1,1x1,False,False,0
+Malta vs England,0x4,1x2,False,True,10
+North Macedonia vs Ukraine,2x3,2x1,False,False,0
+Wales vs Armenia,2x4,2x1,False,False,0
+Latvia vs Turkey,2x3,1x2,False,True,10
+Finland vs Slovenia,2x0,1x1,False,False,0
+Denmark vs Northern Ireland,1x0,2x1,False,True,10
+Andorra vs Switzerland,1x2,1x2,True,True,20
+Belarus vs Israel,1x2,2x2,False,False,0
+Kosovo vs Romania,0x0,1x2,False,False,0
+Kyrgyzstan vs Iran,1x5,1x2,False,True,15
+Brazil vs Guinea,4x1,2x1,False,True,15
+Ecuador vs Bolivia,1x0,2x1,False,True,10
+Norway vs Scotland,1x2,2x1,False,False,0
+Faroe Islands vs Czech Republic,0x3,1x2,False,True,10
+Albania vs Moldova,2x0,2x1,False,True,15
+Belgium vs Austria,1x1,2x1,False,False,0
+Lithuania vs Bulgaria,1x1,1x2,False,False,0
+Montenegro vs Hungary,0x0,1x2,False,False,0
+Iceland vs Slovakia,1x2,1x1,False,False,0
+Portugal vs Bosnia and Herzegovina,3x0,2x1,False,True,10
+Turkmenistan vs Oman,0x2,1x2,False,True,15
+Uzbekistan vs Tajikistan,5x1,2x1,False,True,15
+Zambia vs Ivory Coast,3x0,1x1,False,False,0
+Equatorial Guinea vs Tunisia,1x0,1x1,False,False,0
+South Africa vs Morocco,2x1,1x1,False,False,0
+Benin vs Senegal,1x1,1x2,False,False,0
+Panama vs Mexico,0x1,1x2,False,True,10
+United States vs Canada,2x0,2x2,False,False,0
+Egypt vs South Sudan,3x0,2x0,False,True,15
+Guatemala vs Venezuela,0x1,2x1,False,False,0
+Paraguay vs Nicaragua,2x0,2x1,False,True,15
+Singapore vs Solomon Islands,1x1,1x2,False,False,0
+Netherlands vs Italy,2x3,2x1,False,False,0
+Croatia vs Spain,0x0,2x2,False,True,10
+Mauritius vs Kenya,1x0,1x2,False,False,0
+Sierra Leone vs Nigeria,2x3,1x2,False,True,10
+Cape Verde vs Burkina Faso,3x1,1x1,False,False,0
+Madagascar vs Ghana,0x0,1x1,False,True,10
+Uganda vs Algeria,1x2,1x1,False,False,0
+Congo vs Mali,0x2,1x2,False,True,15
+Hong Kong vs Thailand,0x1,1x2,False,True,10
+Indonesia vs Argentina,0x2,2x2,False,False,0
+Jamaica vs Jordan,1x2,1x1,False,False,0
+Philippines vs Taiwan,2x3,2x1,False,False,0
+Republic of Ireland vs Gibraltar,3x0,3x1,False,True,15
+France vs Greece,1x0,2x1,False,True,10
+Ukraine vs Malta,1x0,2x1,False,True,10
+England vs North Macedonia,7x0,2x1,False,True,10
+Turkey vs Wales,2x0,2x1,False,True,15
+Finland vs San Marino,6x0,3x1,False,True,10
+Northern Ireland vs Kazakhstan,0x1,2x1,False,False,0
+Slovenia vs Denmark,1x1,1x1,True,True,20
+Switzerland vs Romania,2x2,2x1,False,False,0
+Israel vs Andorra,2x1,2x1,True,True,20
+Algeria vs Tunisia,1x1,2x1,False,False,0
+Bolivia vs Chile,0x0,1x2,False,False,0
+Brazil vs Senegal,2x4,2x1,False,False,0
+China PR vs Palestine,2x0,2x1,False,True,15
+Ecuador vs Costa Rica,3x1,2x1,False,True,15
+Germany vs Colombia,0x2,2x1,False,False,0
+Haiti vs Trinidad and Tobago,0x0,2x1,False,False,0
+Japan vs Peru,4x1,2x1,False,True,15
+South Korea vs El Salvador,1x1,2x1,False,False,0
+Montenegro vs Czech Republic,1x4,1x2,False,True,15
+Uruguay vs Cuba,2x0,2x1,False,True,15
+Vietnam vs Syria,1x0,2x1,False,True,10
+Scotland vs Georgia,2x0,2x1,False,True,15
+Norway vs Cyprus,3x1,2x1,False,True,15
+Faroe Islands vs Albania,1x3,1x2,False,True,15
+Moldova vs Poland,3x2,1x2,False,False,0
+Austria vs Sweden,2x0,2x1,False,True,15
+Estonia vs Belgium,0x3,1x2,False,True,10
+Hungary vs Lithuania,2x0,2x1,False,True,15
+Bulgaria vs Serbia,1x1,1x2,False,False,0
+Iceland vs Portugal,0x1,1x2,False,True,10
+Liechtenstein vs Slovakia,0x1,1x3,False,True,10
+Kyrgyzstan vs Oman,0x1,1x2,False,True,10
+Uzbekistan vs Iran,0x1,1x1,False,False,0
+India vs Pakistan,4x0,3x1,False,True,10
+Lebanon vs Bangladesh,2x0,3x1,False,True,10
+India vs Nepal,2x0,2x1,False,True,15
+United States vs Jamaica,1x1,2x1,False,False,0
+Bhutan vs Lebanon,1x4,1x4,True,True,20
+Trinidad and Tobago vs Saint Kitts and Nevis,3x0,2x1,False,True,10
+Haiti vs Qatar,2x1,2x2,False,False,0
+Mexico vs Honduras,4x0,2x1,False,True,10
+El Salvador vs Martinique,1x2,2x1,False,False,0
+Costa Rica vs Panama,1x2,2x1,False,False,0
+India vs Kuwait,1x1,2x1,False,False,0
+Canada vs Guadeloupe,2x2,3x1,False,False,0
+Guatemala vs Cuba,1x0,2x1,False,True,10
+Lebanon vs Maldives,1x0,2x1,False,True,10
+Jamaica vs Trinidad and Tobago,4x1,2x1,False,True,15
+United States vs Saint Kitts and Nevis,6x0,2x1,False,True,10
+Qatar vs Honduras,1x1,2x1,False,False,0
+Haiti vs Mexico,1x3,2x2,False,False,0
+Martinique vs Panama,1x2,1x2,True,True,20
+El Salvador vs Costa Rica,0x0,1x1,False,True,10
+India vs Lebanon,0x0,2x1,False,False,0
+Cuba vs Guadeloupe,1x4,2x1,False,False,0
+Guatemala vs Canada,0x0,2x2,False,True,10
+United States vs Trinidad and Tobago,6x0,2x1,False,True,10
+Jamaica vs Saint Kitts and Nevis,5x0,2x1,False,True,10
+Honduras vs Haiti,2x1,2x2,False,False,0
+Mexico vs Qatar,0x1,2x1,False,False,0
+India vs Kuwait,1x1,2x1,False,False,0
+Costa Rica vs Martinique,6x4,2x1,False,True,10
+Panama vs El Salvador,2x2,2x1,False,False,0
+Guadeloupe vs Guatemala,2x3,1x2,False,True,10
+Canada vs Cuba,4x2,2x1,False,True,10
+South Africa vs Namibia,1x1,2x1,False,False,0
+Zambia vs Malawi,0x1,2x1,False,False,0
+Panama vs Qatar,4x0,1x2,False,False,0
+Mexico vs Costa Rica,2x0,2x1,False,True,15
+South Africa vs Botswana,2x1,2x1,True,True,20
+Guatemala vs Jamaica,0x1,2x1,False,False,0
+United States vs Canada,2x2,2x2,True,True,20
+Zambia vs Comoros,2x1,2x1,True,True,20
+South Africa vs Eswatini,2x1,2x1,True,True,20
+Seychelles vs Zambia,2x4,1x2,False,True,10
+United States vs Panama,1x1,2x1,False,False,0
+Jamaica vs Mexico,0x3,1x1,False,False,0
+South Africa vs Zambia,1x2,2x1,False,False,0
+Mexico vs Panama,1x0,2x1,False,True,10
+South Africa vs Malawi,0x0,2x1,False,False,0
+Lesotho vs Zambia,0x1,1x2,False,True,10
+Bolivia vs Panama,1x2,1x2,True,True,20
+Tahiti vs Cook Islands,9x1,2x1,False,True,15
+Tahiti vs Cook Islands,3x0,2x1,False,True,10
+Guatemala vs Honduras,0x0,2x1,False,False,0
+Oman vs Palestine,2x1,2x1,True,True,20
+Syria vs Malaysia,2x2,2x1,False,False,0
+Trinidad and Tobago vs Curaçao,1x0,2x2,False,False,0
+Panama vs Martinique,3x0,2x1,False,True,10
+Guatemala vs El Salvador,2x0,2x1,False,True,15
+Colombia vs Venezuela,1x0,2x1,False,True,10
+Paraguay vs Peru,0x0,1x1,False,True,10
+Argentina vs Ecuador,1x0,2x1,False,True,10
+Austria vs Moldova,1x1,2x1,False,False,0
+Bulgaria vs Iran,0x1,1x2,False,True,10
+Norway vs Jordan,6x0,2x1,False,True,10
+Qatar vs Kenya,1x2,2x1,False,False,0
+Wales vs South Korea,0x0,1x1,False,True,10
+Ghana vs Central African Republic,2x1,2x1,True,True,20
+Algeria vs Tanzania,0x0,2x1,False,False,0
+Niger vs Uganda,0x2,1x1,False,False,0
+Tunisia vs Botswana,3x0,2x1,False,True,10
+France vs Republic of Ireland,2x0,2x1,False,True,15
+Netherlands vs Greece,3x0,2x1,False,True,10
+Czech Republic vs Albania,1x1,2x1,False,False,0
+Poland vs Faroe Islands,2x0,3x1,False,True,10
+Serbia vs Hungary,1x2,2x1,False,False,0
+Kazakhstan vs Finland,0x1,1x1,False,False,0
+Denmark vs San Marino,4x0,4x0,True,True,20
+Slovenia vs Northern Ireland,4x2,1x1,False,False,0
+Iraq vs India,2x2,2x1,False,False,0
+Thailand vs Lebanon,2x1,2x1,True,True,20
+Haiti vs Cuba,0x0,2x1,False,False,0
+Jamaica vs Honduras,1x0,2x1,False,True,10
+Uruguay vs Chile,3x1,2x1,False,True,15
+Brazil vs Bolivia,5x1,2x1,False,True,15
+Taiwan vs Philippines,1x1,1x2,False,False,0
+Costa Rica vs Saudi Arabia,3x1,1x1,False,False,0
+Indonesia vs Turkmenistan,2x0,2x1,False,True,15
+Burkina Faso vs Eswatini,0x0,2x1,False,False,0
+Egypt vs Ethiopia,1x0,2x1,False,True,10
+Mali vs South Sudan,4x0,2x1,False,True,10
+Georgia vs Spain,1x7,1x2,False,True,15
+Cyprus vs Scotland,0x3,1x2,False,True,10
+Croatia vs Latvia,5x0,2x1,False,True,10
+Turkey vs Armenia,1x1,2x1,False,False,0
+Luxembourg vs Iceland,3x1,1x2,False,False,0
+Slovakia vs Portugal,0x1,1x2,False,True,10
+China PR vs Malaysia,1x1,2x1,False,False,0
+Germany vs Japan,1x4,2x2,False,False,0
+Mexico vs Australia,2x2,2x1,False,False,0
+South Africa vs Namibia,0x0,2x1,False,False,0
+United States vs Uzbekistan,3x0,2x1,False,True,10
+Ivory Coast vs Lesotho,1x0,2x1,False,True,10
+Comoros vs Zambia,1x1,1x1,True,True,20
+Rwanda vs Senegal,1x1,1x1,True,True,20
+Ukraine vs England,1x1,1x2,False,False,0
+North Macedonia vs Italy,1x1,1x2,False,False,0
+Azerbaijan vs Belgium,0x1,1x2,False,True,10
+Estonia vs Sweden,0x5,1x2,False,True,10
+Kosovo vs Switzerland,2x2,1x2,False,False,0
+Romania vs Israel,1x1,2x1,False,False,0
+Guatemala vs Panama,1x1,2x1,False,False,0
+El Salvador vs Trinidad and Tobago,2x3,2x1,False,False,0
+Martinique vs Curaçao,1x0,1x2,False,False,0
+Hungary vs Czech Republic,1x1,2x1,False,False,0
+Nigeria vs São Tomé and Príncipe,6x0,3x1,False,True,10
+Republic of Ireland vs Netherlands,1x2,1x2,True,True,20
+Greece vs Gibraltar,5x0,3x1,False,True,10
+Albania vs Poland,2x0,1x2,False,False,0
+Montenegro vs Bulgaria,2x1,2x1,True,True,20
+Lithuania vs Serbia,1x3,1x2,False,True,15
+Finland vs Denmark,0x1,1x1,False,False,0
+Kazakhstan vs Northern Ireland,1x0,1x2,False,False,0
+San Marino vs Slovenia,0x4,1x3,False,True,10
+Lebanon vs India,1x0,1x1,False,False,0
+Thailand vs Iraq,2x2,2x1,False,False,0
+Vietnam vs Palestine,2x0,2x1,False,True,15
+Armenia vs Croatia,0x1,1x2,False,True,10
+Latvia vs Wales,0x2,1x2,False,True,15
+Iceland vs Bosnia and Herzegovina,1x0,2x1,False,True,10
+Portugal vs Luxembourg,9x0,3x1,False,True,10
+Slovakia vs Liechtenstein,3x0,3x1,False,True,15
+Cuba vs Suriname,1x0,2x1,False,True,10
+Jamaica vs Haiti,2x2,2x2,True,True,20
+Honduras vs Grenada,4x0,3x1,False,True,10
+Bolivia vs Argentina,0x3,1x2,False,True,10
+Ecuador vs Uruguay,2x1,1x1,False,False,0
+Venezuela vs Paraguay,1x0,2x1,False,True,10
+Peru vs Brazil,0x1,1x2,False,True,10
+Chile vs Colombia,0x0,1x1,False,True,10
+Azerbaijan vs Jordan,2x1,1x2,False,False,0
+China PR vs Syria,0x1,2x1,False,False,0
+Egypt vs Tunisia,1x3,1x1,False,False,0
+Germany vs France,2x1,2x2,False,False,0
+Qatar vs Russia,1x1,2x1,False,False,0
+Ghana vs Liberia,3x1,2x1,False,True,15
+Iran vs Angola,4x0,2x1,False,True,10
+Japan vs Turkey,4x2,2x1,False,True,10
+Kenya vs South Sudan,0x1,2x1,False,False,0
+South Korea vs Saudi Arabia,1x0,2x1,False,True,10
+Mexico vs Uzbekistan,3x3,2x1,False,False,0
+Morocco vs Burkina Faso,1x0,2x1,False,True,10
+Philippines vs Afghanistan,2x1,2x1,True,True,20
+Scotland vs England,1x3,1x2,False,True,15
+Senegal vs Algeria,0x1,2x1,False,False,0
+South Africa vs DR Congo,1x0,2x1,False,True,10
+United Arab Emirates vs Costa Rica,4x1,2x1,False,True,15
+United States vs Oman,4x0,2x1,False,True,10
+Cameroon vs Burundi,3x0,2x1,False,True,10
+Norway vs Georgia,2x1,2x1,True,True,20
+Spain vs Cyprus,6x0,2x1,False,True,10
+Italy vs Ukraine,2x1,2x1,True,True,20
+Malta vs North Macedonia,0x2,1x2,False,True,15
+Belgium vs Estonia,5x0,3x1,False,True,10
+Sweden vs Austria,1x3,2x1,False,False,0
+Switzerland vs Andorra,3x0,3x1,False,True,15
+Israel vs Belarus,1x0,2x1,False,True,10
+Romania vs Kosovo,2x0,2x1,False,True,15
+Papua New Guinea vs Solomon Islands,1x3,2x2,False,False,0
+New Caledonia vs Vanuatu,4x0,2x1,False,True,10
+China PR vs Vietnam,2x0,2x1,False,True,15
+Wales vs Gibraltar,4x0,3x1,False,True,10
+Solomon Islands vs Vanuatu,1x0,2x1,False,True,10
+New Caledonia vs Papua New Guinea,3x1,2x1,False,True,15
+Suriname vs Haiti,1x1,1x2,False,False,0
+Grenada vs Jamaica,1x4,1x3,False,True,15
+Cuba vs Honduras,0x0,2x2,False,True,10
+Colombia vs Uruguay,2x2,1x1,False,True,10
+Bolivia vs Ecuador,1x2,1x2,True,True,20
+Argentina vs Paraguay,1x0,2x1,False,True,10
+Brazil vs Venezuela,1x1,2x1,False,False,0
+Chile vs Peru,2x0,2x1,False,True,15
+Indonesia vs Brunei,6x0,4x1,False,True,10
+Algeria vs Cape Verde,5x1,2x1,False,True,15
+Egypt vs Zambia,1x0,2x1,False,True,10
+Georgia vs Thailand,8x0,1x2,False,False,0
+Montenegro vs Lebanon,3x2,1x1,False,False,0
+Russia vs Cameroon,1x0,1x1,False,False,0
+Sweden vs Moldova,3x1,2x1,False,True,15
+Spain vs Scotland,2x0,2x1,False,True,15
+Cyprus vs Norway,0x4,1x2,False,True,10
+Croatia vs Turkey,0x1,2x1,False,False,0
+Faroe Islands vs Poland,0x2,1x2,False,True,15
+Albania vs Czech Republic,3x0,1x1,False,False,0
+Belarus vs Romania,0x0,1x2,False,False,0
+Curaçao vs Panama,1x2,2x1,False,False,0
+Martinique vs El Salvador,1x0,1x2,False,False,0
+Trinidad and Tobago vs Guatemala,3x2,2x2,False,False,0
+DR Congo vs New Zealand,1x1,1x1,True,True,20
+England vs Australia,1x0,2x1,False,True,10
+Equatorial Guinea vs Burkina Faso,0x0,1x1,False,True,10
+Iraq vs Qatar,0x0,2x1,False,False,0
+Japan vs Canada,4x1,2x1,False,True,15
+South Korea vs Tunisia,4x0,2x1,False,True,10
+Mali vs Uganda,1x0,1x1,False,False,0
+Nigeria vs Saudi Arabia,2x2,2x1,False,False,0
+South Africa vs Eswatini,0x0,2x1,False,False,0
+Vietnam vs Uzbekistan,0x2,2x1,False,False,0
+Republic of Ireland vs Greece,0x2,1x1,False,False,0
+Netherlands vs France,1x2,2x2,False,False,0
+Austria vs Belgium,2x3,2x2,False,False,0
+Iceland vs Luxembourg,1x1,2x1,False,False,0
+Portugal vs Slovakia,3x2,2x1,False,True,10
+Ivory Coast vs Morocco,1x1,1x1,True,True,20
+Mexico vs Ghana,2x0,2x1,False,True,15
+United States vs Germany,1x3,2x2,False,False,0
+Ukraine vs North Macedonia,2x0,2x1,False,True,15
+Italy vs Malta,4x0,3x1,False,True,10
+Bulgaria vs Lithuania,0x2,2x1,False,False,0
+Hungary vs Serbia,2x1,2x1,True,True,20
+Northern Ireland vs San Marino,3x0,4x1,False,True,10
+Slovenia vs Finland,3x0,2x1,False,True,10
+Denmark vs Kazakhstan,3x1,2x1,False,True,15
+New Caledonia vs Solomon Islands,0x1,2x2,False,False,0
+Honduras vs Cuba,4x0,2x1,False,True,10
+Haiti vs Jamaica,2x3,2x1,False,False,0
+Kyrgyzstan vs Philippines,0x1,2x2,False,False,0
+Norway vs Spain,0x1,1x2,False,True,10
+Wales vs Croatia,2x1,1x1,False,False,0
+Turkey vs Latvia,4x0,2x1,False,True,10
+Czech Republic vs Faroe Islands,1x0,2x1,False,True,10
+Poland vs Moldova,1x1,3x1,False,False,0
+Switzerland vs Belarus,3x3,2x1,False,False,0
+Romania vs Andorra,4x0,2x1,False,True,10
+Algeria vs Egypt,1x1,2x1,False,False,0
+Kenya vs Russia,2x2,2x1,False,False,0
+China PR vs Uzbekistan,1x2,2x1,False,False,0
+Mozambique vs Nigeria,2x3,1x1,False,False,0
+Senegal vs Cameroon,1x0,2x1,False,True,10
+Gibraltar vs Republic of Ireland,0x4,1x3,False,True,10
+Greece vs Netherlands,0x1,1x2,False,True,10
+Azerbaijan vs Austria,0x1,1x2,False,True,10
+Belgium vs Sweden,1x1,2x1,False,False,0
+Iceland vs Liechtenstein,4x0,3x1,False,True,10
+Bosnia and Herzegovina vs Portugal,0x5,1x2,False,True,10
+Luxembourg vs Slovakia,0x1,1x2,False,True,10
+El Salvador vs Martinique,0x0,2x1,False,False,0
+Panama vs Guatemala,3x0,2x2,False,False,0
+Curaçao vs Trinidad and Tobago,5x3,2x1,False,True,10
+Venezuela vs Chile,3x0,1x1,False,False,0
+Ecuador vs Colombia,0x0,1x1,False,True,10
+Paraguay vs Bolivia,1x0,2x1,False,True,10
+Peru vs Argentina,0x2,1x2,False,True,15
+Uruguay vs Brazil,2x0,1x2,False,False,0
+Brunei vs Indonesia,0x6,1x4,False,True,10
+Albania vs Bulgaria,2x0,2x1,False,True,15
+Australia vs New Zealand,2x0,2x1,False,True,15
+Bahrain vs Philippines,1x0,2x1,False,True,10
+Burkina Faso vs Mauritania,2x1,2x1,True,True,20
+Estonia vs Thailand,1x1,1x2,False,False,0
+France vs Scotland,4x1,2x1,False,True,15
+Ivory Coast vs South Africa,1x1,1x1,True,True,20
+South Korea vs Vietnam,6x0,2x1,False,True,10
+Mali vs Saudi Arabia,3x1,1x1,False,False,0
+Mexico vs Germany,2x2,2x2,True,True,20
+North Macedonia vs Armenia,3x1,2x1,False,True,15
+Syria vs Kuwait,1x2,2x1,False,False,0
+United Arab Emirates vs Lebanon,2x1,2x1,True,True,20
+United States vs Ghana,4x0,2x1,False,True,10
+Zambia vs Uganda,3x0,1x1,False,False,0
+Morocco vs Liberia,3x0,2x0,False,True,15
+England vs Italy,3x1,2x1,False,True,15
+Malta vs Ukraine,1x3,1x2,False,True,15
+Serbia vs Montenegro,3x1,2x1,False,True,15
+Lithuania vs Hungary,2x2,1x2,False,False,0
+Finland vs Kazakhstan,1x2,2x1,False,False,0
+Northern Ireland vs Slovenia,0x1,1x1,False,False,0
+San Marino vs Denmark,1x2,1x4,False,True,15
+United Arab Emirates vs Kuwait,1x0,2x1,False,True,10
+Guatemala vs Jamaica,0x0,2x1,False,False,0
+Kosovo vs Israel,1x0,2x2,False,False,0
+Belgium vs Serbia,1x0,2x1,False,True,10
+Israel vs Switzerland,1x1,2x2,False,True,10
+Costa Rica vs Panama,0x3,2x1,False,False,0
+United States vs Trinidad and Tobago,3x0,2x1,False,True,10
+Bolivia vs Peru,2x0,1x2,False,False,0
+Venezuela vs Ecuador,0x0,1x1,False,True,10
+Colombia vs Brazil,2x1,1x1,False,False,0
+Argentina vs Uruguay,0x2,2x1,False,False,0
+Chile vs Paraguay,0x0,2x1,False,False,0
+Qatar vs Afghanistan,8x1,2x1,False,True,15
+Kuwait vs India,0x1,1x2,False,True,10
+Japan vs Myanmar,5x0,3x1,False,True,10
+Syria vs North Korea,1x0,2x1,False,True,10
+Thailand vs China PR,1x2,2x1,False,False,0
+South Korea vs Singapore,5x0,2x1,False,True,10
+Oman vs Taiwan,3x0,2x1,False,True,10
+Iran vs Hong Kong,4x0,2x0,False,True,15
+Turkmenistan vs Uzbekistan,1x3,1x2,False,True,15
+Iraq vs Indonesia,5x1,2x1,False,True,15
+Philippines vs Vietnam,0x2,1x2,False,True,15
+Tajikistan vs Jordan,1x1,1x2,False,False,0
+Saudi Arabia vs Pakistan,4x0,3x1,False,True,10
+United Arab Emirates vs Nepal,4x0,2x1,False,True,10
+Lebanon vs Palestine,0x0,2x1,False,False,0
+Australia vs Bangladesh,7x0,3x1,False,True,10
+Egypt vs Djibouti,6x0,3x0,False,True,15
+Nigeria vs Lesotho,1x1,2x1,False,False,0
+Gabon vs Kenya,2x1,1x1,False,False,0
+Algeria vs Somalia,3x1,2x1,False,True,15
+Curaçao vs El Salvador,1x1,2x1,False,False,0
+Norway vs Faroe Islands,2x0,2x1,False,True,15
+Cyprus vs Spain,1x3,1x2,False,True,15
+Georgia vs Scotland,2x2,1x2,False,False,0
+Estonia vs Austria,0x2,1x2,False,True,15
+Azerbaijan vs Sweden,3x0,1x2,False,False,0
+Bulgaria vs Hungary,2x2,1x1,False,True,10
+Liechtenstein vs Portugal,0x2,1x3,False,True,10
+Slovakia vs Iceland,4x2,2x1,False,True,10
+Honduras vs Mexico,2x0,1x1,False,False,0
+Burkina Faso vs Guinea-Bissau,1x1,2x1,False,False,0
+Cameroon vs Mauritius,3x0,2x1,False,True,10
+Zambia vs Congo,4x2,2x1,False,True,10
+Ivory Coast vs Seychelles,9x0,3x0,False,True,15
+Guinea vs Uganda,2x1,1x1,False,False,0
+Tunisia vs São Tomé and Príncipe,4x0,3x1,False,True,10
+Ghana vs Madagascar,1x0,2x1,False,True,10
+Mali vs Chad,3x1,2x1,False,True,15
+Greece vs New Zealand,2x0,1x1,False,False,0
+England vs Malta,2x0,3x1,False,True,10
+Italy vs North Macedonia,5x2,2x1,False,True,10
+Moldova vs Albania,1x1,1x2,False,False,0
+Poland vs Czech Republic,1x1,2x1,False,False,0
+Finland vs Northern Ireland,4x0,1x1,False,False,0
+Denmark vs Slovenia,2x1,2x1,True,True,20
+Solomon Islands vs Samoa,1x0,4x1,False,True,10
+Jamaica vs Canada,1x2,1x2,True,True,20
+Senegal vs South Sudan,4x0,2x0,False,True,15
+South Africa vs Benin,2x1,2x1,True,True,20
+Germany vs Turkey,2x3,2x1,False,False,0
+France vs Gibraltar,14x0,4x1,False,True,10
+Netherlands vs Republic of Ireland,1x0,2x1,False,True,10
+Armenia vs Wales,1x1,1x2,False,False,0
+Latvia vs Croatia,0x2,1x2,False,True,15
+Switzerland vs Kosovo,1x1,2x1,False,False,0
+Israel vs Romania,1x2,2x2,False,False,0
+New Caledonia vs Tonga,7x0,4x1,False,True,10
+Fiji vs Northern Mariana Islands,10x0,2x1,False,True,10
+Sierra Leone vs Egypt,0x2,1x2,False,True,15
+Zimbabwe vs Nigeria,1x1,1x1,True,True,20
+Mozambique vs Algeria,0x2,1x2,False,True,15
+Scotland vs Norway,3x3,2x1,False,False,0
+Spain vs Georgia,3x1,2x1,False,True,15
+Belgium vs Azerbaijan,5x0,3x1,False,True,10
+Sweden vs Estonia,2x0,2x1,False,True,15
+Hungary vs Montenegro,3x1,2x1,False,True,15
+Serbia vs Bulgaria,2x2,2x1,False,False,0
+Portugal vs Iceland,2x0,2x1,False,True,15
+Bosnia and Herzegovina vs Slovakia,1x2,1x1,False,False,0
+Panama vs Costa Rica,3x1,2x1,False,True,15
+Trinidad and Tobago vs United States,2x1,1x2,False,False,0
+Gambia vs Ivory Coast,0x2,1x1,False,False,0
+Seychelles vs Kenya,0x5,1x2,False,True,10
+Mali vs Central African Republic,1x1,2x1,False,False,0
+Curaçao vs El Salvador,1x1,2x1,False,False,0
+Russia vs Cuba,8x0,2x1,False,True,10
+North Macedonia vs England,1x1,1x2,False,False,0
+Ukraine vs Italy,0x0,1x1,False,True,10
+Albania vs Faroe Islands,0x0,2x1,False,False,0
+Czech Republic vs Moldova,3x0,2x1,False,True,10
+Northern Ireland vs Denmark,2x0,1x1,False,False,0
+San Marino vs Finland,1x2,1x3,False,True,15
+Slovenia vs Kazakhstan,2x1,2x1,True,True,20
+Canada vs Jamaica,2x3,2x1,False,False,0
+Mexico vs Honduras,2x0,2x1,False,True,15
+Ecuador vs Chile,1x0,2x1,False,True,10
+Paraguay vs Colombia,0x1,1x1,False,False,0
+Uruguay vs Bolivia,3x0,2x1,False,True,10
+Peru vs Venezuela,1x1,2x1,False,False,0
+Brazil vs Argentina,0x1,2x1,False,False,0
+India vs Qatar,0x3,2x1,False,False,0
+Syria vs Japan,0x5,1x2,False,True,10
+China PR vs South Korea,0x3,2x1,False,False,0
+Singapore vs Thailand,1x3,1x2,False,True,15
+Kyrgyzstan vs Oman,1x0,1x2,False,False,0
+Uzbekistan vs Iran,2x2,1x1,False,True,10
+Philippines vs Indonesia,1x1,2x2,False,True,10
+Vietnam vs Iraq,0x1,2x1,False,False,0
+Jordan vs Saudi Arabia,0x2,2x1,False,False,0
+Bahrain vs United Arab Emirates,0x2,1x1,False,False,0
+Palestine vs Australia,0x1,1x2,False,True,10
+Bangladesh vs Lebanon,1x1,1x2,False,False,0
+Ethiopia vs Burkina Faso,0x3,1x2,False,True,10
+Togo vs Senegal,0x0,1x2,False,False,0
+Rwanda vs South Africa,2x0,1x1,False,False,0
+Libya vs Cameroon,1x1,1x1,True,True,20
+Niger vs Zambia,2x1,1x2,False,False,0
+Tanzania vs Morocco,0x2,1x2,False,True,15
+Somalia vs Uganda,0x1,1x1,False,False,0
+Malawi vs Tunisia,0x1,1x1,False,False,0
+Comoros vs Ghana,1x0,1x1,False,False,0
+Austria vs Germany,2x0,2x2,False,False,0
+Poland vs Latvia,2x0,2x1,False,True,15
+Republic of Ireland vs New Zealand,1x1,1x1,True,True,20
+Gibraltar vs Netherlands,0x6,1x3,False,True,10
+Greece vs France,2x2,1x2,False,False,0
+Wales vs Turkey,1x1,1x1,True,True,20
+Croatia vs Armenia,1x0,2x1,False,True,10
+Andorra vs Israel,0x2,1x2,False,True,15
+Romania vs Switzerland,1x0,2x1,False,True,10
+Fiji vs Tahiti,0x0,2x2,False,True,10
+Solomon Islands vs American Samoa,11x0,4x1,False,True,10
+Cook Islands vs New Caledonia,0x8,1x2,False,True,10
+Northern Mariana Islands vs Tahiti,0x5,2x2,False,False,0
+Tahiti vs Samoa,2x1,4x1,False,True,15
+New Caledonia vs Vanuatu,1x0,2x1,False,True,10
+Solomon Islands vs Fiji,2x0,2x2,False,False,0
+Tahiti vs Papua New Guinea,2x0,2x1,False,True,15
+Vanuatu vs Fiji,2x4,1x2,False,True,10
+Solomon Islands vs New Caledonia,2x2,2x2,True,True,20
+Mexico vs Colombia,2x3,2x1,False,False,0
+Japan vs Thailand,5x0,2x1,False,True,10
+China PR vs Hong Kong,1x2,2x1,False,False,0
+Indonesia vs Libya,0x4,2x1,False,False,0
+Saudi Arabia vs Lebanon,1x0,2x1,False,True,10
+Indonesia vs Libya,1x2,2x1,False,False,0
+Iran vs Burkina Faso,2x1,2x1,True,True,20
+Kyrgyzstan vs Syria,1x1,1x2,False,False,0
+Qatar vs Jordan,1x2,2x1,False,False,0
+Togo vs Algeria,0x3,1x2,False,True,10
+Iraq vs South Korea,0x1,1x1,False,False,0
+Bahrain vs Australia,0x2,1x2,False,True,15
+United Arab Emirates vs Oman,0x1,2x1,False,False,0
+Ivory Coast vs Sierra Leone,5x1,2x1,False,True,15
+Tunisia vs Mauritania,0x0,2x1,False,False,0
+Mali vs Guinea-Bissau,6x2,2x1,False,True,10
+Uzbekistan vs Palestine,1x0,2x1,False,True,10
+Egypt vs Tanzania,2x0,2x1,False,True,15
+Nigeria vs Guinea,0x2,2x1,False,False,0
+Syria vs Malaysia,2x2,2x1,False,False,0
+Senegal vs Niger,1x0,2x1,False,True,10
+Ghana vs Namibia,0x0,2x1,False,False,0
+Japan vs Jordan,6x1,2x1,False,True,15
+Kyrgyzstan vs Vietnam,2x1,1x2,False,False,0
+Zambia vs Cameroon,1x1,1x1,True,True,20
+Saudi Arabia vs Palestine,0x0,2x1,False,False,0
+Burundi vs Algeria,0x4,1x2,False,True,10
+Indonesia vs Iran,0x5,1x2,False,True,10
+South Africa vs Lesotho,0x0,2x1,False,False,0
+DR Congo vs Burkina Faso,1x2,1x1,False,False,0
+Saudi Arabia vs Hong Kong,2x0,2x1,False,True,15
+Tunisia vs Cape Verde,2x0,2x1,False,True,15
+Morocco vs Sierra Leone,3x1,2x1,False,True,15
+Qatar vs Lebanon,3x0,2x1,False,True,10
+Sweden vs Estonia,2x1,2x1,True,True,20
+China PR vs Tajikistan,0x0,2x1,False,False,0
+Australia vs India,2x0,2x1,False,True,15
+Uzbekistan vs Syria,0x0,2x1,False,False,0
+Ivory Coast vs Guinea-Bissau,2x0,2x1,False,True,15
+Guatemala vs Iceland,0x1,2x1,False,False,0
+United Arab Emirates vs Hong Kong,3x1,2x1,False,True,15
+Iran vs Palestine,4x1,2x1,False,True,15
+Japan vs Vietnam,4x2,2x1,False,True,10
+Nigeria vs Equatorial Guinea,1x1,2x1,False,False,0
+Egypt vs Mozambique,2x2,2x1,False,False,0
+Ghana vs Cape Verde,1x2,2x1,False,False,0
+Indonesia vs Iraq,1x3,2x1,False,False,0
+South Korea vs Bahrain,3x1,2x1,False,True,15
+Malaysia vs Jordan,0x4,1x2,False,True,10
+Senegal vs Gambia,3x0,2x1,False,True,10
+Cameroon vs Guinea,1x1,2x1,False,False,0
+Algeria vs Angola,1x1,2x1,False,False,0
+Thailand vs Kyrgyzstan,2x0,2x1,False,True,15
+Saudi Arabia vs Oman,2x1,2x1,True,True,20
+Burkina Faso vs Mauritania,1x0,2x1,False,True,10
+Tunisia vs Namibia,0x1,2x1,False,False,0
+Mali vs South Africa,2x0,1x1,False,False,0
+Lebanon vs China PR,0x0,1x1,False,True,10
+Qatar vs Tajikistan,1x0,2x1,False,True,10
+Morocco vs Tanzania,3x0,2x1,False,True,10
+DR Congo vs Zambia,1x1,1x1,True,True,20
+Honduras vs Iceland,0x2,2x1,False,False,0
+Syria vs Australia,0x1,1x2,False,True,10
+India vs Uzbekistan,0x3,2x1,False,False,0
+Palestine vs United Arab Emirates,1x1,1x2,False,False,0
+Ivory Coast vs Nigeria,0x1,1x1,False,False,0
+Egypt vs Ghana,2x2,1x1,False,True,10
+Hong Kong vs Iran,0x1,1x2,False,True,10
+Iraq vs Japan,2x1,1x2,False,False,0
+Vietnam vs Indonesia,0x1,2x1,False,False,0
+Senegal vs Cameroon,3x1,2x1,False,True,15
+Kuwait vs Uganda,0x2,1x1,False,False,0
+Jordan vs South Korea,2x2,1x1,False,True,10
+Algeria vs Burkina Faso,2x2,2x1,False,False,0
+Tunisia vs Mali,1x1,1x1,True,True,20
+United States vs Slovenia,0x1,2x1,False,False,0
+Oman vs Thailand,0x0,2x1,False,False,0
+Kyrgyzstan vs Saudi Arabia,0x2,1x2,False,True,15
+South Africa vs Namibia,4x0,2x1,False,True,10
+Morocco vs DR Congo,1x1,2x1,False,False,0
+Zambia vs Tanzania,1x1,2x1,False,False,0
+Qatar vs China PR,1x0,2x1,False,True,10
+Tajikistan vs Lebanon,2x1,1x2,False,False,0
+Guinea-Bissau vs Nigeria,0x1,1x2,False,True,10
+Ivory Coast vs Equatorial Guinea,0x4,2x1,False,False,0
+Cape Verde vs Egypt,2x2,1x1,False,True,10
+Mozambique vs Ghana,2x2,1x1,False,True,10
+Australia vs Uzbekistan,1x1,2x1,False,False,0
+Syria vs India,1x0,2x1,False,True,10
+Iran vs United Arab Emirates,2x1,2x1,True,True,20
+Gambia vs Cameroon,2x3,1x1,False,False,0
+Guinea vs Senegal,0x2,1x2,False,True,15
+Angola vs Burkina Faso,2x0,1x1,False,False,0
+Mauritania vs Algeria,1x0,1x2,False,False,0
+Iraq vs Vietnam,3x2,1x1,False,False,0
+Japan vs Indonesia,3x1,2x1,False,True,15
+Namibia vs Mali,0x0,1x2,False,False,0
+South Africa vs Tunisia,0x0,1x1,False,True,10
+Zambia vs Morocco,0x1,1x1,False,False,0
+Jordan vs Bahrain,0x1,2x1,False,False,0
+South Korea vs Malaysia,3x3,2x1,False,False,0
+Kyrgyzstan vs Oman,1x1,1x2,False,False,0
+Saudi Arabia vs Thailand,0x0,2x1,False,False,0
+Nigeria vs Cameroon,2x0,1x1,False,False,0
+Australia vs Indonesia,4x0,2x1,False,True,10
+Tajikistan vs United Arab Emirates,1x1,1x2,False,False,0
+Egypt vs DR Congo,1x1,2x1,False,False,0
+Iraq vs Jordan,2x3,1x1,False,False,0
+Qatar vs Palestine,2x1,2x1,True,True,20
+Ivory Coast vs Senegal,1x1,1x1,True,True,20
+Saudi Arabia vs South Korea,1x1,1x1,True,True,20
+Uzbekistan vs Thailand,2x1,2x1,True,True,20
+Mali vs Burkina Faso,2x1,1x1,False,False,0
+Morocco vs South Africa,0x2,1x1,False,False,0
+Bahrain vs Japan,1x3,1x2,False,True,15
+Iran vs Syria,1x1,2x1,False,False,0
+Australia vs South Korea,1x2,2x1,False,False,0
+Tajikistan vs Jordan,0x1,1x2,False,True,10
+Nigeria vs Angola,1x0,2x1,False,True,10
+Iran vs Japan,2x1,2x1,True,True,20
+Qatar vs Uzbekistan,1x1,2x1,False,False,0
+Cape Verde vs South Africa,0x0,1x1,False,True,10
+Ivory Coast vs Mali,2x1,1x1,False,False,0
+Costa Rica vs El Salvador,2x0,1x1,False,False,0
+Jordan vs South Korea,2x0,1x1,False,False,0
+Qatar vs Iran,3x2,1x2,False,False,0
+Ivory Coast vs DR Congo,1x0,2x1,False,True,10
+Nigeria vs South Africa,1x1,1x1,True,True,20
+Qatar vs Jordan,3x1,2x1,False,True,15
+South Africa vs DR Congo,0x0,2x1,False,False,0
+Ivory Coast vs Nigeria,2x1,1x1,False,False,0
+Trinidad and Tobago vs Jamaica,0x1,2x1,False,False,0
+Trinidad and Tobago vs Jamaica,0x0,2x1,False,False,0
+Solomon Islands vs Fiji,2x1,2x2,False,False,0
+Bonaire vs El Salvador,1x1,1x3,False,False,0
+South Africa vs Andorra,1x1,2x1,False,False,0
+Panama vs Mexico,0x3,1x2,False,True,10
+United States vs Jamaica,3x1,2x1,False,True,15
+Poland vs Estonia,5x1,2x1,False,True,15
+Wales vs Finland,4x1,1x1,False,False,0
+Israel vs Iceland,1x4,2x1,False,False,0
+Bosnia and Herzegovina vs Ukraine,1x2,1x1,False,False,0
+Greece vs Kazakhstan,5x0,2x1,False,True,10
+Qatar vs Kuwait,3x0,2x1,False,True,10
+Afghanistan vs India,0x0,1x2,False,False,0
+Myanmar vs Syria,1x1,1x2,False,False,0
+Japan vs North Korea,1x0,2x1,False,True,10
+South Korea vs Thailand,1x1,2x1,False,False,0
+Singapore vs China PR,2x2,1x2,False,False,0
+Oman vs Malaysia,2x0,2x1,False,True,15
+Iran vs Turkmenistan,5x0,2x1,False,True,10
+Hong Kong vs Uzbekistan,0x2,1x2,False,True,15
+Indonesia vs Vietnam,1x0,2x2,False,False,0
+Iraq vs Philippines,1x0,2x1,False,True,10
+Pakistan vs Jordan,0x3,1x2,False,True,10
+Saudi Arabia vs Tajikistan,1x0,2x1,False,True,10
+United Arab Emirates vs Yemen,2x1,2x1,True,True,20
+Australia vs Lebanon,2x0,2x1,False,True,15
+Ecuador vs Guatemala,2x0,2x1,False,True,15
+Malta vs Slovenia,2x2,1x2,False,False,0
+Portugal vs Sweden,5x2,2x1,False,True,10
+Solomon Islands vs Fiji,0x2,2x2,False,False,0
+Venezuela vs Italy,1x2,1x2,True,True,20
+Algeria vs Bolivia,3x2,2x1,False,True,10
+Bulgaria vs Tanzania,1x0,2x1,False,True,10
+Egypt vs New Zealand,1x0,1x1,False,False,0
+Albania vs Chile,0x3,1x1,False,False,0
+Argentina vs El Salvador,3x0,2x1,False,True,10
+Burkina Faso vs Libya,1x2,2x1,False,False,0
+Comoros vs Uganda,4x0,1x1,False,False,0
+Hungary vs Turkey,1x0,2x1,False,True,10
+Mauritania vs Mali,0x2,1x2,False,True,15
+Morocco vs Angola,1x0,2x1,False,True,10
+Netherlands vs Scotland,4x0,2x1,False,True,10
+Nigeria vs Ghana,2x1,1x1,False,False,0
+North Macedonia vs Moldova,1x1,2x1,False,False,0
+Norway vs Czech Republic,1x2,2x1,False,False,0
+Peru vs Nicaragua,2x0,2x1,False,True,15
+Romania vs Northern Ireland,1x1,2x1,False,False,0
+Senegal vs Gabon,3x0,2x1,False,True,10
+Spain vs Colombia,0x1,2x1,False,False,0
+Tunisia vs Croatia,0x0,2x1,False,False,0
+Canada vs Trinidad and Tobago,2x0,2x1,False,True,15
+Costa Rica vs Honduras,3x1,2x1,False,True,15
+Denmark vs Switzerland,0x0,2x1,False,False,0
+England vs Brazil,0x1,2x1,False,False,0
+France vs Germany,0x2,2x2,False,False,0
+Ivory Coast vs Benin,2x2,2x1,False,False,0
+Republic of Ireland vs Belgium,0x0,1x2,False,False,0
+Slovakia vs Austria,0x2,2x1,False,False,0
+Jamaica vs Panama,1x0,2x1,False,True,10
+United States vs Mexico,2x0,2x1,False,True,15
+Ecuador vs Italy,0x2,1x2,False,True,15
+Guatemala vs Venezuela,0x0,2x1,False,False,0
+Bolivia vs Andorra,1x0,2x1,False,True,10
+Azerbaijan vs Bulgaria,1x1,1x1,True,True,20
+Cyprus vs Serbia,0x1,1x2,False,True,10
+Montenegro vs North Macedonia,1x0,1x2,False,False,0
+Sweden vs Albania,1x0,2x1,False,True,10
+Algeria vs South Africa,3x3,2x1,False,False,0
+Egypt vs Croatia,2x4,2x1,False,False,0
+New Zealand vs Tunisia,0x0,1x1,False,True,10
+Wales vs Poland,0x0,1x1,False,True,10
+Ukraine vs Iceland,2x1,2x1,True,True,20
+Georgia vs Greece,0x0,1x1,False,True,10
+India vs Afghanistan,1x2,2x1,False,False,0
+Kuwait vs Qatar,1x2,1x2,True,True,20
+Syria vs Myanmar,7x0,2x1,False,True,10
+Thailand vs South Korea,0x3,2x1,False,False,0
+China PR vs Singapore,4x1,2x1,False,True,15
+Malaysia vs Oman,0x2,1x2,False,True,15
+Uzbekistan vs Hong Kong,3x0,2x1,False,True,10
+Turkmenistan vs Iran,0x1,1x2,False,True,10
+Philippines vs Iraq,0x5,1x1,False,False,0
+Vietnam vs Indonesia,0x3,2x1,False,False,0
+Tajikistan vs Saudi Arabia,1x1,1x2,False,False,0
+Jordan vs Pakistan,7x0,3x1,False,True,10
+Yemen vs United Arab Emirates,0x3,1x2,False,True,10
+Australia vs Lebanon,5x0,2x1,False,True,10
+Argentina vs Costa Rica,3x1,2x1,False,True,15
+Austria vs Turkey,6x1,2x1,False,True,15
+Colombia vs Romania,3x2,2x1,False,True,10
+Czech Republic vs Armenia,2x1,2x1,True,True,20
+Denmark vs Faroe Islands,2x0,3x1,False,True,10
+El Salvador vs Honduras,1x1,2x1,False,False,0
+England vs Belgium,2x2,2x2,True,True,20
+France vs Chile,3x2,2x1,False,True,10
+Germany vs Netherlands,2x1,2x2,False,False,0
+Hungary vs Kosovo,2x0,2x1,False,True,15
+Ivory Coast vs Uruguay,2x1,2x1,True,True,20
+Morocco vs Mauritania,0x0,2x1,False,False,0
+Nicaragua vs Cuba,0x1,2x1,False,False,0
+Norway vs Slovakia,1x1,2x1,False,False,0
+Peru vs Dominican Republic,4x1,2x1,False,True,15
+Republic of Ireland vs Switzerland,0x1,1x1,False,False,0
+Scotland vs Northern Ireland,0x1,2x1,False,False,0
+Senegal vs Benin,1x0,2x1,False,True,10
+Slovenia vs Portugal,2x0,1x2,False,False,0
+Spain vs Brazil,3x3,2x1,False,False,0
+Finland vs Estonia,2x1,2x1,True,True,20
+Trinidad and Tobago vs Guyana,2x1,3x1,False,True,15
+Trinidad and Tobago vs Guyana,2x0,3x1,False,True,10
+Guatemala vs Nicaragua,1x1,2x1,False,False,0
+Bolivia vs Mexico,0x1,1x2,False,True,10
+Costa Rica vs Uruguay,0x0,1x1,False,True,10
+Indonesia vs Tanzania,0x0,2x1,False,False,0
+Albania vs Liechtenstein,3x0,3x1,False,True,15
+Croatia vs North Macedonia,3x0,2x1,False,True,10
+England vs Bosnia and Herzegovina,3x0,2x1,False,True,10
+Germany vs Ukraine,0x0,2x1,False,False,0
+Gibraltar vs Scotland,0x2,1x3,False,True,10
+Austria vs Serbia,2x1,2x1,True,True,20
+Italy vs Turkey,0x0,2x1,False,False,0
+Portugal vs Finland,4x2,2x1,False,True,10
+Republic of Ireland vs Hungary,2x1,1x1,False,False,0
+Romania vs Bulgaria,0x0,2x1,False,False,0
+Slovenia vs Armenia,2x1,2x1,True,True,20
+Switzerland vs Estonia,4x0,2x1,False,True,10
+Belgium vs Montenegro,2x0,3x1,False,True,10
+Denmark vs Sweden,2x1,2x1,True,True,20
+France vs Luxembourg,3x0,2x1,False,True,10
+Mexico vs Uruguay,0x4,2x1,False,False,0
+Norway vs Kosovo,3x0,2x1,False,True,10
+San Marino vs Slovakia,0x4,1x3,False,True,10
+Spain vs Andorra,5x0,3x1,False,True,10
+Tunisia vs Equatorial Guinea,1x0,2x1,False,True,10
+Trinidad and Tobago vs Grenada,2x2,3x1,False,False,0
+Curaçao vs Barbados,4x1,3x1,False,True,15
+Guatemala vs Dominica,6x0,3x1,False,True,10
+Gibraltar vs Wales,0x0,1x3,False,False,0
+Netherlands vs Canada,4x0,2x2,False,False,0
+Egypt vs Burkina Faso,2x1,1x1,False,False,0
+Senegal vs DR Congo,1x1,2x1,False,False,0
+Algeria vs Guinea,1x2,2x1,False,False,0
+Mali vs Ghana,1x2,1x1,False,False,0
+Afghanistan vs Qatar,0x0,1x2,False,False,0
+India vs Kuwait,0x0,2x1,False,False,0
+Myanmar vs Japan,0x5,1x2,False,True,10
+North Korea vs Syria,1x0,2x2,False,False,0
+China PR vs Thailand,1x1,2x1,False,False,0
+Singapore vs South Korea,0x7,1x2,False,True,10
+Taiwan vs Oman,0x3,1x2,False,True,10
+Uzbekistan vs Turkmenistan,3x1,2x1,False,True,15
+Hong Kong vs Iran,2x4,1x2,False,True,10
+Indonesia vs Iraq,0x2,2x1,False,False,0
+Vietnam vs Philippines,3x2,2x1,False,True,10
+Jordan vs Tajikistan,3x0,2x1,False,True,10
+Pakistan vs Saudi Arabia,0x3,1x2,False,True,10
+Nepal vs United Arab Emirates,0x4,1x2,False,True,10
+Bangladesh vs Australia,0x2,1x3,False,True,10
+Palestine vs Lebanon,0x0,1x1,False,True,10
+Honduras vs Cuba,3x1,2x1,False,True,15
+Costa Rica vs Saint Kitts and Nevis,4x0,2x1,False,True,10
+Haiti vs Saint Lucia,2x1,2x1,True,True,20
+Panama vs Guyana,2x0,3x1,False,True,10
+Jamaica vs Dominican Republic,1x0,2x1,False,True,10
+El Salvador vs Puerto Rico,0x0,2x1,False,False,0
+Albania vs Azerbaijan,3x1,2x1,False,True,15
+Czech Republic vs Malta,7x1,2x1,False,True,15
+England vs Iceland,0x1,2x1,False,False,0
+Germany vs Greece,2x1,2x1,True,True,20
+Peru vs Paraguay,0x0,2x1,False,False,0
+Poland vs Ukraine,3x1,2x1,False,True,15
+Romania vs Liechtenstein,0x0,3x1,False,False,0
+Scotland vs Finland,2x2,2x1,False,False,0
+Nigeria vs South Africa,1x1,1x1,True,True,20
+Morocco vs Zambia,2x1,2x1,True,True,20
+Kenya vs Burundi,1x1,2x1,False,False,0
+Ivory Coast vs Gabon,1x0,2x1,False,True,10
+Uganda vs Botswana,1x0,2x1,False,True,10
+Belgium vs Luxembourg,3x0,3x1,False,True,15
+Denmark vs Norway,3x1,2x1,False,True,15
+Hungary vs Israel,3x0,2x1,False,True,10
+Mexico vs Brazil,2x3,1x2,False,True,10
+Portugal vs Croatia,1x2,2x1,False,False,0
+Slovenia vs Bulgaria,1x1,2x1,False,False,0
+Spain vs Northern Ireland,5x1,2x1,False,True,15
+Sweden vs Serbia,0x3,2x1,False,False,0
+Switzerland vs Austria,1x1,2x1,False,False,0
+United States vs Colombia,1x5,2x1,False,False,0
+Cameroon vs Cape Verde,4x1,2x1,False,True,15
+Bahamas vs Trinidad and Tobago,1x7,1x1,False,False,0
+Aruba vs Curaçao,0x2,1x3,False,True,10
+British Virgin Islands vs Guatemala,0x3,1x4,False,True,10
+Argentina vs Ecuador,1x0,2x1,False,True,10
+France vs Canada,0x0,2x2,False,True,10
+Italy vs Bosnia and Herzegovina,1x0,2x1,False,True,10
+Slovakia vs Wales,4x0,1x1,False,False,0
+Mauritania vs Senegal,0x1,1x2,False,True,10
+Namibia vs Tunisia,0x0,1x2,False,False,0
+Bermuda vs Honduras,1x6,1x2,False,True,15
+Grenada vs Costa Rica,0x3,1x2,False,True,10
+Barbados vs Haiti,1x3,1x2,False,True,15
+Montserrat vs Panama,1x3,2x2,False,False,0
+Dominica vs Jamaica,2x3,1x2,False,True,10
+Saint Vincent and the Grenadines vs El Salvador,1x3,1x3,True,True,20
+Czech Republic vs North Macedonia,2x1,2x1,True,True,20
+Netherlands vs Iceland,4x0,2x1,False,True,10
+Poland vs Turkey,2x1,2x1,True,True,20
+Guinea-Bissau vs Egypt,1x1,1x2,False,False,0
+Burkina Faso vs Sierra Leone,2x2,2x1,False,False,0
+Benin vs Nigeria,2x1,1x1,False,False,0
+Uganda vs Algeria,1x2,1x1,False,False,0
+Ghana vs Central African Republic,4x3,2x1,False,True,10
+Andorra vs Northern Ireland,0x2,1x2,False,True,15
+Chile vs Paraguay,3x0,2x1,False,True,10
+Greece vs Malta,2x0,2x1,False,True,15
+Israel vs Belarus,4x0,2x1,False,True,10
+Moldova vs Ukraine,0x4,1x2,False,True,10
+Portugal vs Republic of Ireland,3x0,2x1,False,True,10
+South Africa vs Zimbabwe,3x1,2x1,False,True,15
+Angola vs Cameroon,1x1,1x1,True,True,20
+Zambia vs Tanzania,0x1,2x1,False,False,0
+Morocco vs Congo,6x0,2x1,False,True,10
+Kenya vs Ivory Coast,0x0,1x1,False,True,10
+Madagascar vs Mali,0x0,1x2,False,False,0
+Qatar vs India,2x1,2x1,True,True,20
+Japan vs Syria,5x0,2x1,False,True,10
+Thailand vs Singapore,3x1,2x1,False,True,15
+South Korea vs China PR,1x0,2x1,False,True,10
+Oman vs Kyrgyzstan,1x1,2x1,False,False,0
+Iran vs Uzbekistan,0x0,2x1,False,False,0
+Indonesia vs Philippines,2x0,2x1,False,True,15
+Iraq vs Vietnam,3x1,1x1,False,False,0
+Saudi Arabia vs Jordan,1x2,1x1,False,False,0
+United Arab Emirates vs Bahrain,1x1,2x1,False,False,0
+Lebanon vs Bangladesh,4x0,3x1,False,True,10
+Australia vs Palestine,5x0,2x1,False,True,10
+Cuba vs Cayman Islands,3x0,4x1,False,True,10
+Ecuador vs Bolivia,3x1,2x1,False,True,15
+United States vs Brazil,1x1,1x2,False,False,0
+Germany vs Scotland,5x1,2x1,False,True,15
+Argentina vs Guatemala,4x1,2x1,False,True,15
+El Salvador vs Peru,0x1,1x1,False,False,0
+Hungary vs Switzerland,1x3,1x1,False,False,0
+Spain vs Croatia,3x0,2x1,False,True,10
+Italy vs Albania,2x1,2x1,True,True,20
+Colombia vs Bolivia,3x0,2x1,False,True,10
+Vanuatu vs Solomon Islands,1x0,2x2,False,False,0
+Ecuador vs Honduras,2x1,2x1,True,True,20
+Slovenia vs Denmark,1x1,1x1,True,True,20
+Serbia vs England,0x1,2x2,False,False,0
+Poland vs Netherlands,1x2,2x2,False,False,0
+Panama vs Paraguay,0x1,2x1,False,False,0
+Tahiti vs Samoa,2x0,4x1,False,True,10
+Fiji vs Papua New Guinea,5x1,2x1,False,True,15
+Austria vs France,0x1,2x2,False,False,0
+Romania vs Ukraine,3x0,2x1,False,True,10
+Belgium vs Slovakia,0x1,2x1,False,False,0
+Turkey vs Georgia,3x1,2x1,False,True,15
+Portugal vs Czech Republic,2x1,2x1,True,True,20
+New Zealand vs Solomon Islands,3x0,2x2,False,False,0
 Germany vs Hungary,2x0,2x1,False,True,15
-Burundi vs Senegal,0x2,1x2,False,True,15
-Comoros vs Paraguay,0x0,2x1,False,False,0
-Congo vs San Marino,10x0,4x0,False,True,15
-France vs Scotland,3x0,2x2,False,False,0
-Haiti vs Peru,0x1,1x1,False,False,0
-Cuba vs South Korea,1x2,2x2,False,False,0
-Jamaica vs Venezuela,0x1,2x1,False,False,0
-Belgium vs Norway,3x2,3x1,False,True,15
-Mexico vs Uruguay,3x1,2x1,False,True,15
-Russia vs Serbia,1x1,2x1,False,False,0
-Sweden vs Wales,3x0,2x1,False,True,10
-Argentina vs Central African Republic,2x1,2x1,True,True,20
-Panama vs Bolivia,2x1,3x1,False,True,15
-Poland vs Lithuania,0x0,3x1,False,False,0
-Bulgaria vs Denmark,0x4,1x2,False,True,10
-Canada vs Uzbekistan,2x1,2x1,True,True,20
-Japan vs Bosnia and Herzegovina,1x2,2x1,False,False,0
-Spain vs Georgia,0x1,3x0,False,False,0
-United States vs Comoros,4x0,2x1,False,True,10
-Brazil vs Haiti,7x1,2x0,False,True,10
-Portugal vs Estonia,7x0,2x0,False,True,15
-Mexico vs Jamaica,2x0,2x1,False,True,15
-Uruguay vs Venezuela,0x1,2x1,False,False,0
-Argentina vs Panama,5x0,2x1,False,True,10
-Central African Republic vs Bolivia,2x1,3x1,False,True,15
-France vs Romania,2x1,2x1,True,True,20
-United States vs Paraguay,1x0,2x1,False,True,10
-Albania vs Switzerland,0x1,1x2,False,True,10
-England vs Russia,1x1,2x1,False,False,0
-Wales vs Slovakia,2x1,2x1,True,True,20
-Germany vs Ukraine,2x0,2x1,False,True,15
-Brazil vs Peru,0x1,2x1,False,False,0
-Poland vs Northern Ireland,1x0,2x1,False,True,10
-Turkey vs Congo,0x1,1x2,False,True,10
-Mexico vs Venezuela,1x1,2x1,False,False,0
-Spain vs Cuba,1x0,2x1,False,True,10
-Uruguay vs Jamaica,3x0,2x1,False,True,10
-Argentina vs Bolivia,3x0,3x0,True,True,20
-Central African Republic vs Panama,4x2,2x1,False,True,10
-Portugal vs Iceland,1x1,2x1,False,False,0
-Romania vs Switzerland,1x1,2x2,False,True,10
-France vs Albania,2x0,2x1,False,True,15
-Germany vs Poland,0x0,2x2,False,True,10
-England vs Wales,2x1,2x1,True,True,20
-Cuba vs Congo,2x2,2x2,True,True,20
-Spain vs Turkey,3x0,2x1,False,True,10
-Mexico vs Central African Republic,0x7,2x2,False,False,0
-Argentina vs Venezuela,4x1,2x1,False,True,15
-Belgium vs Republic of Ireland,3x0,2x1,False,True,10
-Portugal vs Austria,0x0,2x1,False,False,0
-France vs Switzerland,0x0,2x2,False,True,10
-Russia vs Wales,0x3,1x1,False,False,0
+Scotland vs Switzerland,1x1,2x1,False,False,0
+Croatia vs Albania,2x2,2x1,False,False,0
+Papua New Guinea vs Tahiti,1x1,2x2,False,True,10
+Fiji vs Samoa,9x1,4x1,False,True,15
+Spain vs Italy,1x0,2x1,False,True,10
+Slovenia vs Serbia,1x1,2x1,False,False,0
+Denmark vs England,1x1,2x1,False,False,0
+Argentina vs Canada,2x0,2x1,False,True,15
+Poland vs Austria,1x3,2x1,False,False,0
+Netherlands vs France,0x0,2x2,False,True,10
+Slovakia vs Ukraine,1x2,2x1,False,False,0
+Vanuatu vs New Zealand,0x4,1x2,False,True,10
+Peru vs Chile,0x0,2x1,False,False,0
+Belgium vs Romania,2x0,2x1,False,True,15
+Georgia vs Czech Republic,1x1,1x2,False,False,0
+Turkey vs Portugal,0x3,1x2,False,True,10
+Fiji vs Tahiti,1x0,2x2,False,False,0
+Ecuador vs Venezuela,1x2,2x1,False,False,0
+Mexico vs Jamaica,1x0,2x1,False,True,10
+Germany vs Switzerland,1x1,2x1,False,False,0
+Scotland vs Hungary,0x1,2x1,False,False,0
+United States vs Bolivia,2x0,2x1,False,True,15
+Uruguay vs Panama,3x1,2x1,False,True,15
+Albania vs Spain,0x1,1x2,False,True,10
+Croatia vs Italy,1x1,2x1,False,False,0
+Colombia vs Paraguay,2x1,2x1,True,True,20
+Brazil vs Costa Rica,0x0,2x1,False,False,0
+England vs Slovenia,0x0,2x1,False,False,0
+Denmark vs Serbia,0x0,2x1,False,False,0
+Netherlands vs Austria,2x3,2x1,False,False,0
+France vs Poland,1x1,2x1,False,False,0
+Peru vs Canada,0x1,1x2,False,True,10
+Chile vs Argentina,0x1,1x2,False,True,10
+Slovakia vs Romania,1x1,2x1,False,False,0
+Ukraine vs Belgium,0x0,1x2,False,False,0
+Georgia vs Portugal,2x0,1x2,False,False,0
+Czech Republic vs Turkey,1x2,2x1,False,False,0
+Ecuador vs Jamaica,3x1,2x1,False,True,15
+Venezuela vs Mexico,1x0,1x2,False,False,0
+Vanuatu vs Fiji,2x1,1x2,False,False,0
+New Zealand vs Tahiti,5x0,2x1,False,True,10
+United States vs Panama,1x2,2x1,False,False,0
+Uruguay vs Bolivia,5x0,2x1,False,True,10
+Colombia vs Costa Rica,3x0,2x1,False,True,10
+Paraguay vs Brazil,1x4,1x2,False,True,15
+Switzerland vs Italy,2x0,2x1,False,True,15
+Germany vs Denmark,2x0,2x1,False,True,15
+Argentina vs Peru,2x0,2x1,False,True,15
+Canada vs Chile,0x0,2x1,False,False,0
+England vs Slovakia,2x1,2x1,True,True,20
+Spain vs Georgia,4x1,2x1,False,True,15
+Tahiti vs Fiji,2x1,2x2,False,False,0
+Vanuatu vs New Zealand,0x3,1x2,False,True,10
+Mexico vs Ecuador,0x0,2x1,False,False,0
+Jamaica vs Venezuela,0x3,2x1,False,False,0
+France vs Belgium,1x0,2x2,False,False,0
+Portugal vs Slovenia,0x0,2x1,False,False,0
+United States vs Uruguay,0x1,2x1,False,False,0
+Bolivia vs Panama,1x3,1x2,False,True,15
+Romania vs Netherlands,0x3,2x2,False,False,0
+Austria vs Turkey,1x2,2x1,False,False,0
+Brazil vs Colombia,1x1,2x1,False,False,0
+Costa Rica vs Paraguay,2x1,2x1,True,True,20
+Argentina vs Ecuador,1x1,2x1,False,False,0
+Germany vs Spain,1x2,2x2,False,False,0
+Portugal vs France,0x0,2x1,False,False,0
+Venezuela vs Canada,1x1,1x2,False,False,0
+England vs Switzerland,1x1,2x1,False,False,0
+Netherlands vs Turkey,2x1,2x1,True,True,20
+Uruguay vs Brazil,0x0,1x2,False,False,0
+Colombia vs Panama,5x0,2x1,False,True,10
+Spain vs France,2x1,2x1,True,True,20
+Argentina vs Canada,2x0,2x1,False,True,15
+Netherlands vs England,1x2,2x2,False,False,0
+Uruguay vs Colombia,0x1,1x1,False,False,0
+Canada vs Uruguay,2x2,2x1,False,False,0
+Spain vs England,2x1,2x1,True,True,20
+Argentina vs Colombia,1x0,2x1,False,True,10
+Guatemala vs El Salvador,0x1,2x1,False,False,0
+Jordan vs North Korea,0x0,2x1,False,False,0
+Jordan vs North Korea,2x1,2x1,True,True,20
+Guatemala vs Uruguay,1x1,2x1,False,False,0
+Fiji vs Solomon Islands,1x0,2x2,False,False,0
+Fiji vs Hong Kong,1x1,2x1,False,False,0
+India vs Mauritius,0x0,2x1,False,False,0
+Lebanon vs Tajikistan,1x0,2x1,False,True,10
+Malaysia vs Philippines,2x1,1x2,False,False,0
+Hong Kong vs Solomon Islands,3x0,1x2,False,False,0
+Vietnam vs Russia,0x3,2x1,False,False,0
+Tunisia vs Madagascar,1x0,2x1,False,True,10
+Algeria vs Equatorial Guinea,2x0,2x1,False,True,15
+Ghana vs Angola,0x1,2x1,False,False,0
+Costa Rica vs Guadeloupe,3x0,2x1,False,True,10
+Guatemala vs Martinique,3x1,2x1,False,True,15
+Montserrat vs El Salvador,1x4,1x2,False,True,15
+Portugal vs Croatia,2x1,2x1,True,True,20
+Scotland vs Poland,2x3,2x1,False,False,0
+Denmark vs Switzerland,2x0,2x1,False,True,15
+Serbia vs Spain,0x0,2x2,False,True,10
+Azerbaijan vs Sweden,1x3,1x2,False,True,15
+Estonia vs Slovakia,0x1,1x2,False,True,10
+Northern Ireland vs Luxembourg,2x0,2x1,False,True,15
+Belarus vs Bulgaria,0x0,1x1,False,True,10
+Bolivia vs Venezuela,4x0,2x2,False,False,0
+Argentina vs Chile,3x0,2x1,False,True,10
+Qatar vs United Arab Emirates,1x3,2x1,False,False,0
+Uzbekistan vs North Korea,1x0,2x1,False,True,10
+Iran vs Kyrgyzstan,1x0,2x1,False,True,10
+Iraq vs Oman,1x0,1x1,False,False,0
+South Korea vs Palestine,0x0,2x1,False,False,0
+Jordan vs Kuwait,1x1,2x1,False,False,0
+Japan vs China PR,7x0,2x1,False,True,10
+Australia vs Bahrain,0x1,2x1,False,False,0
+Saudi Arabia vs Indonesia,1x1,2x1,False,False,0
+Syria vs Mauritius,2x0,2x1,False,True,15
+Morocco vs Gabon,4x1,2x1,False,True,15
+Egypt vs Cape Verde,3x0,2x1,False,True,10
+Ivory Coast vs Zambia,2x0,2x1,False,True,15
+Mali vs Mozambique,1x1,2x1,False,False,0
+Kenya vs Zimbabwe,0x0,1x1,False,True,10
+South Africa vs Uganda,2x2,1x1,False,True,10
+Senegal vs Burkina Faso,1x1,2x1,False,False,0
+Jamaica vs Cuba,0x0,2x1,False,False,0
+Honduras vs Trinidad and Tobago,4x0,2x1,False,True,10
+Saint Lucia vs Curaçao,2x1,1x2,False,False,0
+Puerto Rico vs Haiti,1x4,1x2,False,True,15
+Belgium vs Israel,3x1,2x1,False,True,15
+France vs Italy,1x3,2x1,False,False,0
+Kazakhstan vs Norway,0x0,1x2,False,False,0
+Slovenia vs Austria,1x1,1x1,True,True,20
+Iceland vs Montenegro,2x0,2x1,False,True,15
+Wales vs Turkey,0x0,1x1,False,True,10
+Kosovo vs Romania,0x3,1x2,False,True,10
+Peru vs Colombia,1x1,1x1,True,True,20
+Uruguay vs Paraguay,0x0,2x1,False,False,0
+Brazil vs Ecuador,1x0,2x1,False,True,10
+Mexico vs New Zealand,3x0,2x1,False,True,10
+United States vs Canada,1x2,2x2,False,False,0
+Nigeria vs Benin,3x0,2x1,False,True,10
+Cameroon vs Namibia,1x0,2x1,False,True,10
+Germany vs Hungary,5x0,2x1,False,True,10
+Netherlands vs Bosnia and Herzegovina,5x2,2x1,False,True,10
+Georgia vs Czech Republic,4x1,1x2,False,False,0
+Ukraine vs Albania,1x2,2x1,False,False,0
+Republic of Ireland vs England,0x2,1x2,False,True,15
+Greece vs Finland,3x0,1x1,False,False,0
+Faroe Islands vs North Macedonia,1x1,1x2,False,False,0
+Tajikistan vs Philippines,0x0,2x2,False,True,10
+Malaysia vs Lebanon,1x0,1x2,False,False,0
+Gambia vs Tunisia,1x2,1x1,False,False,0
+Bonaire vs El Salvador,1x2,1x3,False,True,15
+Portugal vs Scotland,2x1,2x1,True,True,20
+Croatia vs Poland,1x0,2x1,False,True,10
+Denmark vs Serbia,2x0,2x1,False,True,15
+Switzerland vs Spain,1x4,2x2,False,False,0
+Slovakia vs Azerbaijan,2x0,2x1,False,True,15
+Sweden vs Estonia,3x0,2x1,False,True,10
+Bulgaria vs Northern Ireland,1x0,1x1,False,False,0
+India vs Syria,0x3,2x1,False,False,0
+Morocco vs Lesotho,1x0,2x1,False,True,10
+Niger vs Ghana,1x1,1x2,False,False,0
+Uganda vs Congo,2x0,2x1,False,True,15
+Burundi vs Senegal,0x1,1x2,False,True,10
+Guatemala vs Costa Rica,0x0,2x1,False,False,0
+Curaçao vs Saint Martin,4x0,2x1,False,True,10
+Haiti vs Sint Maarten,6x0,4x1,False,True,10
+France vs Belgium,2x0,2x2,False,False,0
+Israel vs Italy,1x2,1x2,True,True,20
+Norway vs Austria,2x1,2x1,True,True,20
+Slovenia vs Kazakhstan,3x0,2x1,False,True,10
+Montenegro vs Wales,1x2,1x2,True,True,20
+Turkey vs Iceland,3x1,2x1,False,True,15
+Romania vs Lithuania,3x1,2x1,False,True,15
+Mexico vs Canada,0x0,2x2,False,True,10
+United States vs New Zealand,1x1,2x1,False,False,0
+Vietnam vs Thailand,1x2,2x1,False,False,0
+Botswana vs Egypt,0x4,1x1,False,False,0
+Rwanda vs Nigeria,0x0,1x1,False,True,10
+Liberia vs Algeria,0x3,1x2,False,True,10
+Zambia vs Sierra Leone,3x2,2x1,False,True,10
+Chad vs Ivory Coast,0x2,1x2,False,True,15
+Eswatini vs Mali,0x1,1x2,False,True,10
+Namibia vs Kenya,1x2,1x1,False,False,0
+South Sudan vs South Africa,2x3,1x2,False,True,10
+Burkina Faso vs Malawi,3x1,2x1,False,True,15
+Cuba vs Nicaragua,1x1,2x1,False,False,0
+Trinidad and Tobago vs French Guiana,0x0,2x2,False,True,10
+Honduras vs Jamaica,1x2,1x1,False,False,0
+Hungary vs Bosnia and Herzegovina,0x0,2x1,False,False,0
+Netherlands vs Germany,2x2,2x2,True,True,20
+Albania vs Georgia,0x1,2x1,False,False,0
+Czech Republic vs Ukraine,3x2,2x1,False,True,10
+England vs Finland,2x0,2x1,False,True,15
+Republic of Ireland vs Greece,0x2,1x1,False,False,0
+North Macedonia vs Armenia,2x0,2x1,False,True,15
+Colombia vs Argentina,2x1,1x1,False,False,0
+Ecuador vs Peru,1x0,2x1,False,True,10
+Chile vs Bolivia,1x2,2x1,False,False,0
+Venezuela vs Uruguay,0x0,1x1,False,True,10
+Paraguay vs Brazil,1x0,1x2,False,False,0
+North Korea vs Qatar,2x2,1x2,False,False,0
+Kyrgyzstan vs Uzbekistan,2x3,1x2,False,True,10
+United Arab Emirates vs Iran,0x1,1x2,False,True,10
+Oman vs South Korea,1x3,1x1,False,False,0
+Kuwait vs Iraq,0x0,1x1,False,True,10
+Palestine vs Jordan,1x3,1x2,False,True,15
+Bahrain vs Japan,0x5,1x2,False,True,10
+Indonesia vs Australia,0x0,2x2,False,True,10
+China PR vs Saudi Arabia,1x2,2x1,False,False,0
+Zimbabwe vs Cameroon,0x0,1x1,False,True,10
+Algeria vs Togo,5x1,2x1,False,True,15
+Ghana vs Sudan,0x0,2x1,False,False,0
+Burkina Faso vs Burundi,4x1,2x1,False,True,15
+Cuba vs Trinidad and Tobago,2x2,2x2,True,True,20
+French Guiana vs Honduras,2x3,2x1,False,False,0
+Nicaragua vs Jamaica,0x2,1x1,False,False,0
+Saint Vincent and the Grenadines vs El Salvador,2x3,1x3,False,True,15
+Israel vs France,1x4,2x2,False,False,0
+Italy vs Belgium,2x2,2x2,True,True,20
+England vs Greece,1x2,2x1,False,False,0
+Finland vs Republic of Ireland,1x2,1x1,False,False,0
+Austria vs Kazakhstan,4x0,2x1,False,True,10
+Norway vs Slovenia,3x0,2x1,False,True,10
+Latvia vs North Macedonia,0x3,1x2,False,True,10
+Bolivia vs Colombia,1x0,1x2,False,False,0
+Ecuador vs Paraguay,0x0,2x1,False,False,0
+Venezuela vs Argentina,1x1,1x2,False,False,0
+Chile vs Brazil,1x2,1x2,True,True,20
+Papua New Guinea vs New Caledonia,1x3,2x2,False,False,0
+Fiji vs Solomon Islands,1x0,2x2,False,False,0
+Qatar vs Kyrgyzstan,3x1,2x1,False,True,15
+Uzbekistan vs Iran,0x0,1x1,False,True,10
+United Arab Emirates vs North Korea,1x1,2x1,False,False,0
+Jordan vs South Korea,0x2,1x1,False,False,0
+Oman vs Kuwait,4x0,2x1,False,True,10
+Iraq vs Palestine,1x0,2x1,False,True,10
+Bahrain vs Indonesia,2x2,2x1,False,False,0
+Australia vs China PR,3x1,2x1,False,True,15
+Saudi Arabia vs Japan,0x2,1x2,False,True,15
+Tunisia vs Comoros,0x1,2x1,False,False,0
+Egypt vs Mauritania,2x0,2x1,False,True,15
+Nigeria vs Libya,1x0,2x1,False,True,10
+Zambia vs Chad,0x0,2x1,False,False,0
+Ivory Coast vs Sierra Leone,4x1,2x1,False,True,15
+Mali vs Guinea-Bissau,1x0,2x1,False,True,10
+Cameroon vs Kenya,4x1,1x1,False,False,0
+Uganda vs South Sudan,1x0,2x1,False,True,10
+South Africa vs Congo,5x0,2x1,False,True,10
+Senegal vs Malawi,4x0,2x1,False,True,10
+Suriname vs Costa Rica,1x1,1x2,False,False,0
+Guyana vs Guatemala,1x3,1x2,False,True,15
+Grenada vs Curaçao,0x0,1x3,False,False,0
+Aruba vs Haiti,1x3,1x3,True,True,20
+Bosnia and Herzegovina vs Germany,1x2,1x2,True,True,20
+Hungary vs Netherlands,1x1,1x2,False,False,0
+Czech Republic vs Albania,2x0,2x1,False,True,15
+Ukraine vs Georgia,1x0,2x1,False,True,10
+Iceland vs Wales,2x2,1x1,False,True,10
+Turkey vs Montenegro,1x0,2x1,False,True,10
+Slovakia vs Sweden,2x2,1x1,False,True,10
+Peru vs Uruguay,1x0,1x1,False,False,0
+New Zealand vs Tahiti,3x0,2x1,False,True,10
+Syria vs Tajikistan,1x0,2x1,False,True,10
+Thailand vs Philippines,3x1,2x1,False,True,15
+United States vs Panama,2x0,2x1,False,True,15
+Vietnam vs India,1x1,2x1,False,False,0
+Morocco vs Central African Republic,5x0,2x1,False,True,10
+Croatia vs Scotland,2x1,2x1,True,True,20
+Poland vs Portugal,1x3,2x2,False,False,0
+Serbia vs Switzerland,2x0,2x1,False,True,15
+Spain vs Denmark,1x0,2x1,False,True,10
+Cyprus vs Romania,0x3,1x2,False,True,10
+Bulgaria vs Luxembourg,0x0,2x1,False,False,0
+Belarus vs Northern Ireland,0x0,1x1,False,True,10
+Burundi vs Burkina Faso,0x2,1x1,False,False,0
+Saint Vincent and the Grenadines vs El Salvador,2x1,1x3,False,False,0
+Finland vs England,1x3,1x2,False,True,15
+Greece vs Republic of Ireland,2x0,1x1,False,False,0
+Kazakhstan vs Slovenia,0x1,1x2,False,True,10
+Austria vs Norway,5x1,2x1,False,True,15
+Armenia vs North Macedonia,0x2,1x2,False,True,15
+New Zealand vs Malaysia,4x0,2x1,False,True,10
+Togo vs Algeria,0x1,1x2,False,True,10
+Kenya vs Cameroon,0x1,1x1,False,False,0
+Jamaica vs Honduras,0x0,2x1,False,False,0
+Trinidad and Tobago vs Cuba,3x1,2x1,False,True,15
+Curaçao vs Grenada,1x0,3x1,False,True,10
+Aruba vs Haiti,3x5,1x3,False,True,10
+Belgium vs France,1x2,2x1,False,False,0
+Italy vs Israel,4x1,2x1,False,True,15
+Bosnia and Herzegovina vs Hungary,0x2,1x1,False,False,0
+Germany vs Netherlands,1x0,2x2,False,False,0
+Georgia vs Albania,0x1,1x1,False,False,0
+Ukraine vs Czech Republic,1x1,2x1,False,False,0
+Iceland vs Turkey,2x4,1x2,False,True,10
+Wales vs Montenegro,1x0,2x1,False,True,10
+Azerbaijan vs Slovakia,1x3,1x2,False,True,15
+Estonia vs Sweden,0x3,1x2,False,True,10
+Tajikistan vs Philippines,0x3,2x2,False,False,0
+Thailand vs Syria,2x1,2x1,True,True,20
+Canada vs Panama,2x1,2x1,True,True,20
+Mexico vs United States,2x0,2x1,False,True,15
+Comoros vs Tunisia,1x1,1x2,False,False,0
+Morocco vs Central African Republic,4x0,2x1,False,True,10
+Mauritania vs Egypt,0x1,1x2,False,True,10
+Sudan vs Ghana,2x0,1x2,False,False,0
+Chad vs Zambia,0x1,1x2,False,True,10
+Sierra Leone vs Ivory Coast,1x0,1x2,False,False,0
+Guinea-Bissau vs Mali,0x0,1x2,False,False,0
+South Sudan vs Uganda,1x2,1x1,False,False,0
+Congo vs South Africa,1x1,1x2,False,False,0
+Malawi vs Senegal,0x1,1x1,False,False,0
+Costa Rica vs Guatemala,3x0,1x1,False,False,0
+Scotland vs Portugal,0x0,1x2,False,False,0
+Poland vs Croatia,3x3,2x1,False,False,0
+Spain vs Serbia,3x0,2x1,False,True,10
+Switzerland vs Denmark,2x2,2x1,False,False,0
+Lithuania vs Romania,1x2,1x2,True,True,20
+Northern Ireland vs Bulgaria,5x0,2x1,False,True,10
+Colombia vs Chile,4x0,2x1,False,True,10
+Paraguay vs Venezuela,2x1,1x1,False,False,0
+Uruguay vs Ecuador,0x0,2x1,False,False,0
+Argentina vs Bolivia,6x0,2x1,False,True,10
+Brazil vs Peru,4x0,2x1,False,True,10
+Uzbekistan vs United Arab Emirates,1x0,2x1,False,True,10
+Iran vs Qatar,4x1,2x1,False,True,15
+Jordan vs Oman,4x0,2x1,False,True,10
+South Korea vs Iraq,3x2,2x1,False,True,10
+Japan vs Australia,1x1,2x1,False,False,0
+China PR vs Indonesia,2x1,2x1,True,True,20
+Saudi Arabia vs Bahrain,0x0,2x1,False,False,0
+Namibia vs Cameroon,0x0,1x1,False,True,10
+Belgium vs Italy,0x1,2x1,False,False,0
+France vs Israel,0x0,2x1,False,False,0
+Republic of Ireland vs Finland,1x0,1x1,False,False,0
+Greece vs England,0x3,1x2,False,True,10
+Kazakhstan vs Austria,0x2,1x2,False,True,15
+Slovenia vs Norway,1x4,1x1,False,False,0
+North Macedonia vs Latvia,1x0,2x1,False,True,10
+El Salvador vs Bonaire,1x0,3x1,False,True,10
+Saint Kitts and Nevis vs Cuba,2x1,2x2,False,False,0
+Costa Rica vs Panama,0x1,2x1,False,False,0
+Jamaica vs United States,0x1,1x2,False,True,10
+Hong Kong vs Philippines,3x1,1x2,False,False,0
+Thailand vs Lebanon,0x0,2x1,False,False,0
+Venezuela vs Brazil,1x1,1x2,False,False,0
+Ecuador vs Bolivia,4x0,2x1,False,True,10
+Paraguay vs Argentina,2x1,1x2,False,False,0
+Solomon Islands vs New Caledonia,2x3,2x2,False,False,0
+Papua New Guinea vs Fiji,3x3,1x2,False,False,0
+North Korea vs Iran,2x3,1x2,False,True,10
+Qatar vs Uzbekistan,3x2,2x1,False,True,10
+United Arab Emirates vs Kyrgyzstan,3x0,2x1,False,True,10
+Kuwait vs South Korea,1x3,1x2,False,True,15
+Iraq vs Jordan,0x0,1x1,False,True,10
+Oman vs Palestine,1x0,2x1,False,True,10
+Bahrain vs China PR,0x1,1x1,False,False,0
+Australia vs Saudi Arabia,0x0,2x1,False,False,0
+Madagascar vs Tunisia,2x3,1x2,False,True,10
+Benin vs Nigeria,1x1,1x1,True,True,20
+Equatorial Guinea vs Algeria,0x0,1x2,False,False,0
+Burkina Faso vs Senegal,0x1,1x1,False,False,0
+Portugal vs Poland,5x1,2x1,False,True,15
+Scotland vs Croatia,1x0,2x1,False,True,10
+Denmark vs Spain,1x2,2x2,False,False,0
+Switzerland vs Serbia,1x1,2x1,False,False,0
+Romania vs Kosovo,0x0,2x1,False,False,0
+Northern Ireland vs Belarus,2x0,2x1,False,True,15
+Luxembourg vs Bulgaria,0x1,1x2,False,True,10
+Curaçao vs Saint Martin,5x0,2x1,False,True,10
+Sint Maarten vs Haiti,0x8,1x4,False,True,10
+Honduras vs Mexico,2x0,1x1,False,False,0
+Suriname vs Canada,0x1,1x2,False,True,10
+Peru vs Chile,0x0,2x1,False,False,0
+Uruguay vs Colombia,3x2,1x1,False,False,0
+Samoa vs Tahiti,0x3,1x4,False,True,10
+New Zealand vs Vanuatu,8x1,2x1,False,True,15
+Indonesia vs Japan,0x4,2x2,False,False,0
+Gabon vs Morocco,1x5,1x1,False,False,0
+Cape Verde vs Egypt,1x1,1x1,True,True,20
+Angola vs Ghana,1x1,1x1,True,True,20
+Zambia vs Ivory Coast,1x0,1x1,False,False,0
+Mozambique vs Mali,0x1,1x1,False,False,0
+Zimbabwe vs Kenya,1x1,1x1,True,True,20
+Uganda vs South Africa,0x2,1x1,False,False,0
+Germany vs Bosnia and Herzegovina,7x0,2x1,False,True,10
+Netherlands vs Hungary,4x0,2x1,False,True,10
+Albania vs Czech Republic,0x0,1x1,False,True,10
+Georgia vs Ukraine,1x1,1x1,True,True,20
+Montenegro vs Iceland,0x2,1x2,False,True,15
+Turkey vs Wales,0x0,2x1,False,False,0
+Sweden vs Slovakia,2x1,2x1,True,True,20
+Israel vs Belgium,1x0,2x2,False,False,0
+Italy vs France,1x3,2x1,False,False,0
+England vs Republic of Ireland,5x0,2x1,False,True,10
+Finland vs Greece,0x2,1x1,False,False,0
+Norway vs Kazakhstan,5x0,2x1,False,True,10
+Austria vs Slovenia,1x1,2x1,False,False,0
+North Macedonia vs Faroe Islands,1x0,2x1,False,True,10
+El Salvador vs Montserrat,1x0,2x1,False,True,10
+Thailand vs Laos,1x1,3x1,False,False,0
+Fiji vs New Caledonia,1x1,2x1,False,False,0
+Papua New Guinea vs Solomon Islands,1x2,2x2,False,False,0
+Algeria vs Liberia,5x1,2x1,False,True,15
+Croatia vs Portugal,1x1,2x2,False,True,10
+Poland vs Scotland,1x2,2x1,False,False,0
+Serbia vs Denmark,0x0,2x2,False,True,10
+Spain vs Switzerland,3x2,2x1,False,True,10
+Romania vs Cyprus,4x1,2x1,False,True,15
+Luxembourg vs Northern Ireland,2x2,1x2,False,False,0
+Bulgaria vs Belarus,1x1,2x1,False,False,0
+Saint Lucia vs Curaçao,1x4,1x2,False,True,15
+Puerto Rico vs Haiti,0x3,1x2,False,True,10
+Cuba vs Saint Kitts and Nevis,4x0,2x1,False,True,10
+Panama vs Costa Rica,2x2,2x1,False,False,0
+United States vs Jamaica,4x2,2x1,False,True,10
+India vs Malaysia,1x1,2x1,False,False,0
+Tahiti vs Vanuatu,2x0,2x1,False,True,15
+New Zealand vs Samoa,8x0,4x0,False,True,15
+Tunisia vs Gambia,0x1,2x1,False,False,0
+Morocco vs Lesotho,7x0,2x1,False,True,10
+Nigeria vs Rwanda,1x2,2x1,False,False,0
+Ghana vs Niger,1x2,2x1,False,False,0
+Malawi vs Burkina Faso,3x0,1x1,False,False,0
+Bosnia and Herzegovina vs Netherlands,1x1,1x2,False,False,0
+Hungary vs Germany,1x1,1x2,False,False,0
+Albania vs Ukraine,1x2,1x1,False,False,0
+Czech Republic vs Georgia,2x1,2x1,True,True,20
+Wales vs Iceland,4x1,2x1,False,True,15
+Montenegro vs Turkey,3x1,1x2,False,False,0
+Slovakia vs Estonia,1x0,2x1,False,True,10
+Sweden vs Azerbaijan,6x0,2x1,False,True,10
+Canada vs Suriname,3x0,2x1,False,True,10
+Mexico vs Honduras,4x0,2x1,False,True,10
+Myanmar vs Lebanon,2x3,1x2,False,True,10
+Russia vs Syria,4x0,2x1,False,True,10
+Bolivia vs Paraguay,2x2,2x2,True,True,20
+Colombia vs Ecuador,0x1,2x1,False,False,0
+Argentina vs Peru,1x0,2x1,False,True,10
+Chile vs Venezuela,4x2,2x1,False,True,10
+Brazil vs Uruguay,1x1,2x1,False,False,0
+North Korea vs Uzbekistan,0x1,1x2,False,True,10
+Kyrgyzstan vs Iran,2x3,1x2,False,True,10
+United Arab Emirates vs Qatar,5x0,2x1,False,True,10
+Palestine vs South Korea,1x1,1x2,False,False,0
+Oman vs Iraq,0x1,2x1,False,False,0
+Kuwait vs Jordan,1x1,1x2,False,False,0
+Bahrain vs Australia,2x2,1x2,False,False,0
+Indonesia vs Saudi Arabia,2x0,2x2,False,False,0
+China PR vs Japan,1x3,2x2,False,False,0
+Egypt vs Botswana,1x1,2x1,False,False,0
+Ivory Coast vs Chad,4x0,2x1,False,True,10
+Sierra Leone vs Zambia,0x2,1x2,False,True,15
+Mali vs Eswatini,6x0,2x1,False,True,10
+Cameroon vs Zimbabwe,2x1,2x1,True,True,20
+Kenya vs Namibia,0x0,2x1,False,False,0
+South Africa vs South Sudan,3x0,2x1,False,True,10
+Congo vs Uganda,0x1,1x1,False,False,0
+Senegal vs Burundi,2x0,2x1,False,True,15
+Timor-Leste vs Thailand,0x10,1x3,False,True,10
+Myanmar vs Indonesia,0x1,1x2,False,True,10
+Laos vs Vietnam,1x4,1x3,False,True,15
+Solomon Islands vs Vanuatu,4x1,2x1,False,True,15
+Philippines vs Myanmar,1x1,2x1,False,False,0
+Indonesia vs Laos,3x3,3x1,False,False,0
+Fiji vs Vanuatu,1x1,2x1,False,False,0
+Thailand vs Malaysia,1x0,2x1,False,True,10
+Laos vs Philippines,1x1,1x3,False,False,0
+Vietnam vs Indonesia,1x0,2x1,False,True,10
+Papua New Guinea vs Fiji,1x1,1x2,False,False,0
+Singapore vs Thailand,2x4,1x2,False,True,10
+Philippines vs Vietnam,1x1,1x2,False,False,0
+Solomon Islands vs Papua New Guinea,2x3,2x1,False,False,0
+Thailand vs Cambodia,3x2,3x1,False,True,15
+Vietnam vs Myanmar,5x0,2x1,False,True,10
+Indonesia vs Philippines,0x1,2x1,False,False,0
+Kuwait vs Oman,1x1,1x1,True,True,20
+Qatar vs United Arab Emirates,1x1,2x1,False,False,0
+Solomon Islands vs Fiji,1x3,2x2,False,False,0
+Iraq vs Yemen,1x0,2x1,False,True,10
+Saudi Arabia vs Bahrain,2x3,2x1,False,False,0
+Oman vs Qatar,2x1,2x1,True,True,20
+Kuwait vs United Arab Emirates,2x1,1x2,False,False,0
+Yemen vs Saudi Arabia,2x3,1x2,False,True,10
+Bahrain vs Iraq,2x0,1x1,False,False,0
+Singapore vs Vietnam,0x2,1x2,False,True,15
+Philippines vs Thailand,2x1,1x2,False,False,0
+Kuwait vs Qatar,1x1,1x2,False,False,0
+United Arab Emirates vs Oman,1x1,2x1,False,False,0
+Iraq vs Saudi Arabia,1x3,1x1,False,False,0
+Vietnam vs Singapore,3x1,2x1,False,True,15
+Thailand vs Philippines,3x1,2x1,False,True,15
+Oman vs Saudi Arabia,2x1,2x1,True,True,20
+Vietnam vs Thailand,2x1,2x1,True,True,20
+Oman vs Bahrain,1x2,2x1,False,False,0
+Burkina Faso vs Kenya,1x1,1x1,True,True,20
+Thailand vs Vietnam,2x3,2x1,False,False,0
+Zanzibar vs Burkina Faso,0x1,1x1,False,False,0
+Tanzania vs Kenya,0x2,1x1,False,False,0
+Tanzania vs Burkina Faso,0x2,1x2,False,True,15
+Zanzibar vs Kenya,1x0,1x1,False,False,0
+Zanzibar vs Burkina Faso,2x1,1x1,False,False,0
+United States vs Venezuela,3x1,2x1,False,True,15
+United States vs Costa Rica,3x0,2x1,False,True,10
+Uzbekistan vs Jordan,0x0,1x1,False,True,10
+Jamaica vs Trinidad and Tobago,1x0,2x1,False,True,10
+Chile vs Panama,6x1,2x1,False,True,15
+Jamaica vs Trinidad and Tobago,1x1,2x1,False,False,0
+Oman vs Sudan,0x0,2x1,False,False,0
+Oman vs Sudan,0x0,2x1,False,False,0
+Jordan vs North Korea,1x1,2x1,False,False,0
+Honduras vs Guatemala,1x2,1x2,True,True,20
+India vs Maldives,3x0,3x1,False,True,15
+Vietnam vs Cambodia,2x1,3x1,False,True,15
+Eswatini vs Cameroon,0x0,1x2,False,False,0
+Liberia vs Tunisia,0x1,1x2,False,True,10
+Kazakhstan vs Curaçao,2x0,1x2,False,False,0
+Canada vs Mexico,0x2,2x1,False,False,0
+United States vs Panama,0x1,2x1,False,False,0
+Croatia vs France,2x0,2x2,False,False,0
+Denmark vs Portugal,1x0,2x1,False,True,10
+Italy vs Germany,1x2,2x2,False,False,0
+Netherlands vs Spain,2x2,2x2,True,True,20
+Austria vs Serbia,1x1,2x1,False,False,0
+Greece vs Scotland,0x1,1x1,False,False,0
+Turkey vs Hungary,3x1,2x1,False,True,15
+Ukraine vs Belgium,3x1,1x2,False,False,0
+Bulgaria vs Republic of Ireland,1x2,1x1,False,False,0
+Kosovo vs Iceland,2x1,2x2,False,False,0
+Slovakia vs Slovenia,0x0,1x1,False,True,10
+Paraguay vs Chile,1x0,1x1,False,False,0
+Peru vs Bolivia,3x1,2x1,False,True,15
+Brazil vs Colombia,2x1,2x1,True,True,20
+Iran vs United Arab Emirates,2x0,2x1,False,True,15
+Uzbekistan vs Kyrgyzstan,1x0,2x1,False,True,10
+Qatar vs North Korea,5x1,2x1,False,True,15
+South Korea vs Oman,1x1,2x1,False,False,0
+Iraq vs Kuwait,2x2,2x1,False,False,0
+Jordan vs Palestine,3x1,2x1,False,True,15
+Japan vs Bahrain,2x0,2x1,False,True,15
+Australia vs Indonesia,5x1,2x1,False,True,15
+Saudi Arabia vs China PR,1x0,2x1,False,True,10
+Gambia vs Kenya,3x3,1x1,False,True,10
+Mozambique vs Uganda,3x1,1x1,False,False,0
+Comoros vs Mali,0x3,1x1,False,False,0
+Lebanon vs Timor-Leste,4x0,3x1,False,True,10
+Belize vs Costa Rica,0x7,1x2,False,True,10
+Guyana vs Guatemala,3x2,1x2,False,False,0
+Bermuda vs Honduras,3x5,1x2,False,True,10
+Saint Vincent and the Grenadines vs Jamaica,1x1,1x3,False,False,0
+Cuba vs Trinidad and Tobago,1x2,2x2,False,False,0
+Northern Ireland vs Switzerland,1x1,1x1,True,True,20
+Thailand vs Afghanistan,2x0,2x1,False,True,15
+Ecuador vs Venezuela,2x1,2x1,True,True,20
+Uruguay vs Argentina,0x1,1x1,False,False,0
+New Caledonia vs Tahiti,3x0,2x2,False,False,0
+New Zealand vs Fiji,7x0,2x1,False,True,10
+Burkina Faso vs Djibouti,4x1,3x1,False,True,15
+Ethiopia vs Egypt,0x2,1x2,False,True,15
+Rwanda vs Nigeria,0x2,1x1,False,False,0
+South Africa vs Lesotho,0x3,2x1,False,False,0
+Morocco vs Niger,2x1,2x1,True,True,20
+Burundi vs Ivory Coast,0x1,1x1,False,False,0
+Botswana vs Algeria,1x3,1x2,False,True,15
+Ghana vs Chad,5x0,2x1,False,True,10
+Malta vs Finland,0x1,1x2,False,True,10
+Poland vs Lithuania,1x0,2x1,False,True,10
+Romania vs Bosnia and Herzegovina,0x1,2x1,False,False,0
+England vs Albania,2x0,2x1,False,True,15
+Azerbaijan vs Haiti,0x3,1x2,False,True,10
+Luxembourg vs Sweden,1x0,1x2,False,False,0
+Sudan vs Senegal,0x0,1x2,False,False,0
+Moldova vs Norway,0x5,1x2,False,True,10
+Israel vs Estonia,2x1,2x1,True,True,20
+Liechtenstein vs North Macedonia,0x3,1x3,False,True,15
+Wales vs Kazakhstan,3x1,2x1,False,True,15
+Czech Republic vs Faroe Islands,2x1,2x1,True,True,20
+United States vs Canada,1x2,2x2,False,False,0
+Panama vs Mexico,1x2,1x2,True,True,20
+France vs Croatia,2x0,2x1,False,True,15
+Germany vs Italy,3x3,2x1,False,False,0
+Portugal vs Denmark,5x2,2x1,False,True,10
+Spain vs Netherlands,3x3,2x1,False,False,0
+Belgium vs Ukraine,3x0,2x1,False,True,10
+Hungary vs Turkey,0x3,2x1,False,False,0
+Scotland vs Greece,0x3,2x1,False,False,0
+Serbia vs Austria,2x0,2x1,False,True,15
+Iceland vs Kosovo,1x3,2x1,False,False,0
+Republic of Ireland vs Bulgaria,2x1,2x1,True,True,20
+Slovenia vs Slovakia,1x0,1x1,False,False,0
+Kenya vs Gabon,1x2,1x1,False,False,0
+New Zealand vs New Caledonia,3x0,2x1,False,True,10
+Guinea-Bissau vs Burkina Faso,1x2,1x2,True,True,20
+Ivory Coast vs Gambia,1x0,2x1,False,True,10
+Tunisia vs Malawi,2x0,2x1,False,True,15
+Central African Republic vs Mali,0x0,1x2,False,False,0
+Madagascar vs Ghana,0x3,1x1,False,False,0
+Lithuania vs Finland,2x2,1x2,False,False,0
+Poland vs Malta,2x0,3x1,False,True,10
+San Marino vs Romania,1x5,1x3,False,True,15
+England vs Latvia,3x0,2x1,False,True,10
+Albania vs Andorra,3x0,2x1,False,True,10
+Philippines vs Maldives,4x1,2x1,False,True,15
+Lebanon vs Brunei,5x0,3x1,False,True,10
+India vs Bangladesh,0x0,3x1,False,False,0
+Thailand vs Sri Lanka,1x0,3x1,False,True,10
+Syria vs Pakistan,2x0,2x1,False,True,15
+Vietnam vs Laos,5x0,3x1,False,True,10
+Costa Rica vs Belize,6x1,2x1,False,True,15
+Guatemala vs Guyana,2x0,3x1,False,True,10
+Honduras vs Bermuda,2x0,2x1,False,True,15
+Jamaica vs Saint Vincent and the Grenadines,3x0,3x1,False,True,15
+Trinidad and Tobago vs Cuba,4x0,2x1,False,True,10
+Russia vs Zambia,5x0,2x1,False,True,10
+Sweden vs Northern Ireland,5x1,2x1,False,True,15
+Switzerland vs Luxembourg,3x1,2x1,False,True,15
+Bolivia vs Uruguay,0x0,1x2,False,False,0
+Colombia vs Paraguay,2x2,2x1,False,False,0
+Venezuela vs Peru,1x0,1x1,False,False,0
+Argentina vs Brazil,4x1,2x1,False,True,15
+Chile vs Ecuador,0x0,2x1,False,False,0
+Iran vs Uzbekistan,2x2,2x1,False,False,0
+Kyrgyzstan vs Qatar,3x1,1x2,False,False,0
+North Korea vs United Arab Emirates,1x2,1x2,True,True,20
+South Korea vs Jordan,1x1,2x1,False,False,0
+Kuwait vs Oman,0x1,1x1,False,False,0
+Palestine vs Iraq,2x1,1x1,False,False,0
+China PR vs Australia,0x2,2x2,False,False,0
+Japan vs Saudi Arabia,0x0,2x1,False,False,0
+Indonesia vs Bahrain,1x0,2x1,False,True,10
+Egypt vs Sierra Leone,1x0,2x1,False,True,10
+Senegal vs Togo,2x0,2x1,False,True,15
+Benin vs South Africa,0x2,1x1,False,False,0
+Nigeria vs Zimbabwe,1x1,2x1,False,False,0
+Cameroon vs Libya,3x1,2x1,False,True,15
+Morocco vs Tanzania,2x0,2x1,False,True,15
+Uganda vs Guinea,1x0,2x1,False,True,10
+Algeria vs Mozambique,5x1,2x1,False,True,15
+Israel vs Norway,2x4,2x2,False,False,0
+North Macedonia vs Wales,1x1,2x1,False,False,0
+Gibraltar vs Czech Republic,0x4,1x3,False,True,10
+Jamaica vs Trinidad and Tobago,3x2,2x1,False,True,10
+Nigeria vs Ghana,2x1,1x1,False,False,0
+Oman vs Lebanon,1x0,2x1,False,True,10
+Saudi Arabia vs Jordan,2x0,1x1,False,False,0
+Trinidad and Tobago vs Ghana,0x4,1x1,False,False,0
+Jamaica vs Nigeria,2x2,1x1,False,True,10
+El Salvador vs Guatemala,1x1,1x2,False,False,0
+Tunisia vs Burkina Faso,2x0,2x1,False,True,15
+Germany vs Portugal,1x2,2x2,False,False,0
+Thailand vs India,2x0,2x1,False,True,15
+Spain vs France,5x4,2x1,False,True,10
+Algeria vs Rwanda,2x0,2x1,False,True,15
+DR Congo vs Mali,1x0,1x1,False,False,0
+Ecuador vs Brazil,0x0,1x2,False,False,0
+Paraguay vs Uruguay,2x0,1x1,False,False,0
+Chile vs Argentina,0x1,1x2,False,True,10
+United Arab Emirates vs Uzbekistan,0x0,2x1,False,False,0
+Qatar vs Iran,1x0,1x2,False,False,0
+Oman vs Jordan,0x3,1x1,False,False,0
+Iraq vs South Korea,0x2,1x1,False,False,0
+Bahrain vs Saudi Arabia,0x2,1x1,False,False,0
+Australia vs Japan,1x0,2x1,False,True,10
+Indonesia vs China PR,1x0,2x2,False,False,0
+Bulgaria vs Cyprus,2x2,2x1,False,False,0
+Hungary vs Sweden,0x2,1x1,False,False,0
+Luxembourg vs Slovenia,0x1,1x2,False,True,10
+Morocco vs Tunisia,2x0,2x1,False,True,15
+Poland vs Moldova,2x0,3x1,False,True,10
+Republic of Ireland vs Senegal,1x1,1x1,True,True,20
+Scotland vs Iceland,1x3,2x1,False,False,0
+South Africa vs Tanzania,0x0,2x1,False,False,0
+Uganda vs Cameroon,0x3,1x1,False,False,0
+Zimbabwe vs Burkina Faso,0x2,1x1,False,False,0
+Russia vs Nigeria,1x1,1x1,True,True,20
+Colombia vs Peru,0x0,2x1,False,False,0
+Venezuela vs Bolivia,2x0,2x1,False,True,15
+Norway vs Italy,3x0,1x1,False,False,0
+Estonia vs Israel,1x3,1x2,False,True,15
+Wales vs Liechtenstein,3x0,3x1,False,True,15
+North Macedonia vs Belgium,1x1,1x2,False,False,0
+Czech Republic vs Montenegro,2x0,2x1,False,True,15
+Gibraltar vs Croatia,0x7,1x3,False,True,10
+Antigua and Barbuda vs Cuba,0x1,1x2,False,True,10
+Trinidad and Tobago vs Saint Kitts and Nevis,6x2,2x1,False,True,10
+Curaçao vs Saint Lucia,4x0,2x1,False,True,10
+Guatemala vs Dominican Republic,4x2,2x1,False,True,10
+Denmark vs Northern Ireland,2x1,2x1,True,True,20
+Greece vs Slovakia,4x1,1x1,False,False,0
+Mexico vs Switzerland,2x4,2x1,False,False,0
+United States vs Turkey,1x2,2x1,False,False,0
+Finland vs Netherlands,0x2,1x2,False,True,15
+Austria vs Romania,2x1,2x1,True,True,20
+Andorra vs England,0x1,1x2,False,True,10
+Albania vs Serbia,0x0,1x1,False,True,10
+Canada vs Ukraine,4x2,2x1,False,True,10
+Ivory Coast vs New Zealand,0x1,1x1,False,False,0
+Kenya vs Chad,0x0,2x1,False,False,0
+Cayman Islands vs Honduras,0x1,1x4,False,True,10
+Bahamas vs Costa Rica,0x8,1x1,False,False,0
+Aruba vs Haiti,0x5,1x3,False,True,10
+Belize vs Panama,0x2,1x2,False,True,15
+British Virgin Islands vs Jamaica,0x1,1x3,False,True,10
+Anguilla vs El Salvador,0x3,1x4,False,True,10
+Germany vs France,0x2,2x2,False,False,0
+Portugal vs Spain,2x2,2x2,True,True,20
+Algeria vs Rwanda,2x0,2x1,False,True,15
+Equatorial Guinea vs Cameroon,1x1,1x1,True,True,20
+Liechtenstein vs Scotland,0x4,1x3,False,True,10
+Morocco vs Benin,1x0,2x1,False,True,10
+Uganda vs Gambia,1x1,1x1,True,True,20
+Italy vs Moldova,2x0,3x1,False,True,10
+Estonia vs Norway,0x1,1x2,False,True,10
+Kazakhstan vs North Macedonia,0x1,1x2,False,True,10
+Belgium vs Wales,4x3,2x1,False,True,10
+Croatia vs Czech Republic,5x1,2x1,False,True,15
+Philippines vs Tajikistan,2x2,2x1,False,False,0
+Yemen vs Lebanon,0x0,1x2,False,False,0
+Hong Kong vs India,1x0,1x2,False,False,0
+Turkmenistan vs Thailand,3x1,1x2,False,False,0
+Afghanistan vs Syria,0x1,1x2,False,True,10
+Malaysia vs Vietnam,4x0,1x2,False,False,0
+Azerbaijan vs Hungary,1x2,1x2,True,True,20
+Chad vs Kenya,1x2,1x2,True,True,20
+Denmark vs Lithuania,5x0,2x1,False,True,10
+England vs Senegal,1x3,2x1,False,False,0
+Greece vs Bulgaria,4x0,2x1,False,True,10
+Israel vs Slovakia,1x0,2x2,False,False,0
+Luxembourg vs Republic of Ireland,0x0,1x2,False,False,0
+Mexico vs Turkey,1x0,2x1,False,True,10
+Northern Ireland vs Iceland,1x0,2x1,False,True,10
+Slovenia vs Bosnia and Herzegovina,2x1,2x1,True,True,20
+South Africa vs Mozambique,2x0,2x1,False,True,15
+Sweden vs Algeria,4x3,1x2,False,False,0
+United States vs Switzerland,0x4,2x1,False,False,0
+Bolivia vs Chile,2x0,1x2,False,False,0
+Uruguay vs Venezuela,2x0,2x1,False,True,15
+Peru vs Ecuador,0x0,2x1,False,False,0
+Argentina vs Colombia,1x1,2x1,False,False,0
+Brazil vs Paraguay,1x0,2x1,False,True,10
+Uzbekistan vs Qatar,3x0,2x1,False,True,10
+Iran vs North Korea,3x0,2x1,False,True,10
+Kyrgyzstan vs United Arab Emirates,1x1,1x2,False,False,0
+South Korea vs Kuwait,4x0,2x1,False,True,10
+Jordan vs Iraq,0x1,2x1,False,False,0
+Palestine vs Oman,1x1,1x2,False,False,0
+China PR vs Bahrain,1x0,2x1,False,True,10
+Japan vs Indonesia,6x0,2x1,False,True,10
+Saudi Arabia vs Australia,1x2,1x1,False,False,0
+Netherlands vs Malta,8x0,3x1,False,True,10
+Finland vs Poland,2x1,1x1,False,False,0
+San Marino vs Austria,0x4,1x3,False,True,10
+Romania vs Cyprus,2x0,2x1,False,True,15
+Serbia vs Andorra,3x0,3x1,False,True,15
+Latvia vs Albania,1x1,1x2,False,False,0
+New Zealand vs Ukraine,1x2,1x1,False,False,0
+Canada vs Ivory Coast,0x0,2x1,False,False,0
+Cuba vs Bermuda,1x2,2x1,False,False,0
+Honduras vs Antigua and Barbuda,2x0,2x1,False,True,15
+Costa Rica vs Trinidad and Tobago,2x1,2x1,True,True,20
+Haiti vs Curaçao,1x5,2x2,False,False,0
+Panama vs Nicaragua,3x0,2x1,False,True,10
+Jamaica vs Guatemala,3x0,2x2,False,False,0
+El Salvador vs Suriname,1x1,2x1,False,False,0
+Mexico vs Dominican Republic,3x2,2x1,False,True,10
+Costa Rica vs Suriname,4x3,2x1,False,True,10
+United States vs Trinidad and Tobago,5x0,2x1,False,True,10
+Haiti vs Saudi Arabia,0x1,2x1,False,False,0
+Panama vs Guadeloupe,5x2,2x1,False,True,10
+Jamaica vs Guatemala,0x1,2x2,False,False,0
+Curaçao vs El Salvador,0x0,2x1,False,False,0
+Canada vs Honduras,6x0,2x1,False,True,10
+Costa Rica vs Dominican Republic,2x1,2x1,True,True,20
+Suriname vs Mexico,0x2,1x2,False,True,15
+Trinidad and Tobago vs Haiti,1x1,2x2,False,True,10
+United States vs Saudi Arabia,1x0,2x1,False,True,10
+Jamaica vs Guadeloupe,2x1,2x1,True,True,20
+Guatemala vs Panama,0x1,2x1,False,False,0
+Curaçao vs Canada,1x1,2x2,False,True,10
+Honduras vs El Salvador,2x0,1x1,False,False,0
+Mexico vs Costa Rica,0x0,2x1,False,False,0
+Saudi Arabia vs Trinidad and Tobago,1x1,2x1,False,False,0
+United States vs Haiti,2x1,2x1,True,True,20
+Honduras vs Curaçao,2x1,1x2,False,False,0
+Canada vs El Salvador,2x0,2x1,False,True,15
+Panama vs Jamaica,4x1,2x1,False,True,15
+Guadeloupe vs Guatemala,2x3,1x2,False,True,10
+Panama vs Honduras,1x1,2x1,False,False,0
+Mexico vs Saudi Arabia,2x0,2x1,False,True,15
+Canada vs Guatemala,1x1,2x1,False,False,0
+United States vs Costa Rica,2x2,2x1,False,False,0
+United States vs Guatemala,2x1,2x1,True,True,20
+Mexico vs Honduras,1x0,2x1,False,True,10
+United States vs Mexico,1x2,2x1,False,False,0
+Qatar vs Lebanon,2x2,2x1,False,False,0
+Qatar vs Bahrain,2x2,2x1,False,False,0
+Gibraltar vs Albania,0x1,1x3,False,True,10
+Norway vs Finland,1x0,2x1,False,True,10
+Russia vs Jordan,0x0,1x1,False,True,10
+Saudi Arabia vs North Macedonia,2x1,2x1,True,True,20
+United Arab Emirates vs Syria,3x1,2x1,False,True,15
+Colombia vs Bolivia,3x0,2x1,False,True,10
+Argentina vs Venezuela,3x0,2x1,False,True,10
+Paraguay vs Ecuador,0x0,1x1,False,True,10
+Uruguay vs Peru,3x0,2x1,False,True,10
+Brazil vs Chile,3x0,2x1,False,True,10
+Cameroon vs Eswatini,3x0,2x1,False,True,10
+Algeria vs Botswana,3x1,2x1,False,True,15
+Tunisia vs Liberia,3x0,2x1,False,True,10
+Chad vs Ghana,1x1,1x2,False,False,0
+Mali vs Comoros,3x0,2x1,False,True,10
+Luxembourg vs Northern Ireland,1x3,1x2,False,True,15
+Slovakia vs Germany,2x0,2x2,False,False,0
+Georgia vs Turkey,2x3,1x2,False,True,10
+Bulgaria vs Spain,0x3,1x2,False,True,10
+Netherlands vs Poland,1x1,2x1,False,False,0
+Kazakhstan vs Wales,0x1,1x2,False,True,10
+Liechtenstein vs Belgium,0x6,1x3,False,True,10
+Iraq vs Hong Kong,2x1,2x1,True,True,20
+Thailand vs Fiji,3x0,2x1,False,True,10
+Suriname vs Panama,0x0,1x2,False,False,0
+Guatemala vs El Salvador,0x1,2x1,False,False,0
+Australia vs New Zealand,1x0,2x1,False,True,10
+Indonesia vs Taiwan,6x0,3x1,False,True,10
+Romania vs Canada,0x3,1x2,False,True,10
+Djibouti vs Burkina Faso,0x6,1x3,False,True,10
+Egypt vs Ethiopia,2x0,2x1,False,True,15
+Senegal vs Sudan,2x0,2x0,True,True,20
+South Africa vs Lesotho,3x0,2x1,False,True,10
+Morocco vs Niger,5x0,2x1,False,True,10
+Kenya vs Gambia,1x3,1x1,False,False,0
+Ivory Coast vs Burundi,1x0,2x1,False,True,10
+Uganda vs Mozambique,4x0,1x1,False,False,0
+Slovenia vs Sweden,2x2,1x1,False,True,10
+Switzerland vs Kosovo,4x0,2x1,False,True,10
+Denmark vs Scotland,0x0,2x1,False,False,0
+Greece vs Belarus,5x1,2x1,False,True,15
+Iceland vs Azerbaijan,5x0,2x1,False,True,10
+Ukraine vs France,0x2,1x2,False,True,15
+Italy vs Estonia,5x0,2x1,False,True,10
+Moldova vs Israel,0x4,1x2,False,True,10
+Faroe Islands vs Croatia,0x1,1x2,False,True,10
+Montenegro vs Czech Republic,0x2,1x2,False,True,15
+Bermuda vs Jamaica,0x4,1x2,False,True,10
+Trinidad and Tobago vs Curaçao,0x0,2x2,False,True,10
+Haiti vs Honduras,0x0,2x1,False,False,0
+Nicaragua vs Costa Rica,1x1,1x1,True,True,20
+Mexico vs Japan,0x0,2x2,False,True,10
+United States vs South Korea,0x2,2x1,False,False,0
+Nigeria vs Rwanda,1x0,2x1,False,True,10
+Republic of Ireland vs Hungary,2x2,1x1,False,True,10
+Armenia vs Portugal,0x5,1x2,False,True,10
+Austria vs Cyprus,1x0,2x1,False,True,10
+Latvia vs Serbia,0x1,1x2,False,True,10
+England vs Andorra,2x0,3x1,False,True,10
+Germany vs Northern Ireland,3x1,2x1,False,True,15
+Luxembourg vs Slovakia,0x1,1x2,False,True,10
+Georgia vs Bulgaria,3x0,2x1,False,True,10
+Turkey vs Spain,0x6,1x2,False,True,10
+Lithuania vs Netherlands,2x3,1x2,False,True,10
+Poland vs Finland,3x1,2x1,False,True,15
+North Macedonia vs Liechtenstein,5x0,3x1,False,True,10
+Belgium vs Kazakhstan,6x0,3x1,False,True,10
+Qatar vs Russia,1x4,2x1,False,False,0
+Fiji vs Hong Kong,0x8,2x1,False,False,0
+Thailand vs Iraq,0x1,2x1,False,False,0
+Czech Republic vs Saudi Arabia,1x1,2x1,False,False,0
+Indonesia vs Lebanon,0x0,2x1,False,False,0
+Syria vs Kuwait,2x2,2x1,False,False,0
+United Arab Emirates vs Bahrain,1x0,2x1,False,True,10
+Zambia vs Morocco,0x2,1x1,False,False,0
+Guinea vs Algeria,0x0,1x2,False,False,0
+Uganda vs Somalia,2x0,2x1,False,True,15
+Equatorial Guinea vs Tunisia,0x1,1x1,False,False,0
+Ghana vs Mali,1x0,1x1,False,False,0
+Kosovo vs Sweden,2x0,1x2,False,False,0
+Switzerland vs Slovenia,3x0,2x1,False,True,10
+Belarus vs Scotland,0x2,1x2,False,True,15
+Greece vs Denmark,0x3,1x1,False,False,0
+Israel vs Italy,4x5,1x2,False,True,10
+Croatia vs Montenegro,4x0,2x1,False,True,10
+El Salvador vs Suriname,1x2,2x1,False,False,0
+Panama vs Guatemala,1x1,2x2,False,True,10
+Jordan vs Dominican Republic,3x0,2x1,False,True,10
+Mexico vs South Korea,2x2,2x1,False,False,0
+New Zealand vs Australia,1x3,1x1,False,False,0
+United States vs Japan,2x0,2x2,False,False,0
+Wales vs Canada,0x1,1x2,False,True,10
+Ecuador vs Argentina,1x0,1x2,False,False,0
+Peru vs Paraguay,0x1,2x1,False,False,0
+Bolivia vs Brazil,1x0,1x2,False,False,0
+Venezuela vs Colombia,3x6,1x1,False,False,0
+Chile vs Uruguay,0x0,1x1,False,True,10
+Burkina Faso vs Egypt,0x0,1x1,False,True,10
+DR Congo vs Senegal,2x3,1x1,False,False,0
+South Africa vs Nigeria,1x1,1x1,True,True,20
+Cape Verde vs Cameroon,1x0,1x1,False,False,0
+Kenya vs Seychelles,5x0,2x1,False,True,10
+Gabon vs Ivory Coast,0x0,1x1,False,True,10
+Azerbaijan vs Ukraine,1x1,1x2,False,False,0
+France vs Iceland,2x1,2x1,True,True,20
+Armenia vs Republic of Ireland,2x1,1x2,False,False,0
+Hungary vs Portugal,2x3,1x2,False,True,10
+Bosnia and Herzegovina vs Austria,1x2,1x1,False,False,0
+Cyprus vs Romania,2x2,1x2,False,False,0
+Norway vs Moldova,11x1,2x1,False,True,15
+Albania vs Latvia,1x0,2x1,False,True,10
+Serbia vs England,0x5,2x2,False,False,0
+Jamaica vs Trinidad and Tobago,2x0,2x1,False,True,15
+Curaçao vs Bermuda,3x2,2x1,False,True,10
+Costa Rica vs Haiti,3x3,2x2,False,True,10
+Honduras vs Nicaragua,2x0,2x1,False,True,15
+Saint Vincent and the Grenadines vs Cuba,7x0,2x3,False,False,0
+Qatar vs Oman,0x0,2x1,False,False,0
+Saudi Arabia vs Indonesia,3x2,2x1,False,True,10
+Sierra Leone vs Burkina Faso,0x1,1x2,False,True,10
+Djibouti vs Egypt,0x3,1x3,False,True,15
+Mauritius vs Cameroon,0x2,1x2,False,True,15
+Tanzania vs Zambia,0x1,1x2,False,True,10
+Central African Republic vs Ghana,0x5,1x2,False,True,10
+Chad vs Mali,0x2,1x2,False,True,15
+Gibraltar vs New Caledonia,0x2,1x3,False,True,10
+Saint Vincent and the Grenadines vs Cuba,1x0,2x3,False,False,0
+England vs Wales,3x0,2x1,False,True,10
+Poland vs New Zealand,1x0,2x1,False,True,10
+Romania vs Moldova,2x1,2x1,True,True,20
+Morocco vs Bahrain,1x0,2x1,False,True,10
+Burundi vs Kenya,0x1,1x1,False,False,0
+Algeria vs Somalia,3x0,2x1,False,True,10
+Botswana vs Uganda,0x1,1x1,False,False,0
+Scotland vs Greece,3x1,2x1,False,True,15
+Belarus vs Denmark,0x6,1x2,False,True,10
+Malta vs Netherlands,0x4,1x2,False,True,10
+Finland vs Lithuania,2x1,2x1,True,True,20
+Austria vs San Marino,10x0,4x1,False,True,10
+Czech Republic vs Croatia,0x0,2x1,False,False,0
+Timor-Leste vs Philippines,1x4,1x3,False,True,15
+Lebanon vs Bhutan,2x0,4x1,False,True,10
+Singapore vs India,1x1,1x2,False,False,0
+Thailand vs Taiwan,2x0,3x1,False,True,10
+Syria vs Myanmar,5x1,2x1,False,True,15
+Vietnam vs Nepal,3x1,2x1,False,True,15
+Nicaragua vs Haiti,0x3,1x2,False,True,10
+Honduras vs Costa Rica,0x0,1x1,False,True,10
+Argentina vs Venezuela,1x0,2x1,False,True,10
+Chile vs Peru,2x1,2x1,True,True,20
+Canada vs Australia,0x1,2x1,False,False,0
+Russia vs Iran,2x1,1x2,False,False,0
+Japan vs Paraguay,2x2,2x1,False,False,0
+Uzbekistan vs Kuwait,2x0,2x1,False,True,15
+Jordan vs Bolivia,0x1,2x1,False,False,0
+South Korea vs Brazil,0x5,1x1,False,False,0
+Uruguay vs Dominican Republic,1x0,2x1,False,True,10
+United States vs Ecuador,1x1,2x1,False,False,0
+South Sudan vs Senegal,0x5,1x2,False,True,10
+Lesotho vs Nigeria,1x2,1x2,True,True,20
+South Africa vs Zimbabwe,0x0,2x1,False,False,0
+Seychelles vs Ivory Coast,0x7,1x2,False,True,10
+Tunisia vs São Tomé and Príncipe,6x0,3x1,False,True,10
+Northern Ireland vs Slovakia,2x0,1x1,False,False,0
+Germany vs Luxembourg,4x0,3x1,False,True,10
+Kosovo vs Slovenia,0x0,1x2,False,False,0
+Sweden vs Switzerland,0x2,2x1,False,False,0
+Iceland vs Ukraine,3x5,1x1,False,False,0
+France vs Azerbaijan,3x0,2x1,False,True,10
+Belgium vs North Macedonia,0x0,2x1,False,False,0
+Suriname vs Guatemala,1x1,1x2,False,False,0
+El Salvador vs Panama,0x1,2x1,False,False,0
+Bermuda vs Trinidad and Tobago,0x3,2x2,False,False,0
+Curaçao vs Jamaica,2x0,2x1,False,True,15
+Grenada vs Cuba,2x0,2x2,False,False,0
+Mexico vs Colombia,0x4,2x1,False,False,0
+United Arab Emirates vs Oman,2x1,2x1,True,True,20
+Iraq vs Indonesia,1x0,2x1,False,True,10
+Spain vs Georgia,2x0,2x1,False,True,15
+Bulgaria vs Turkey,1x6,1x2,False,True,15
+Hungary vs Armenia,2x0,2x1,False,True,15
+Portugal vs Republic of Ireland,1x0,2x1,False,True,10
+Norway vs Israel,5x0,2x1,False,True,10
+Estonia vs Italy,1x3,1x2,False,True,15
+Serbia vs Albania,0x1,2x1,False,False,0
+Burkina Faso vs Ethiopia,3x1,2x1,False,True,15
+Egypt vs Guinea-Bissau,1x0,2x1,False,True,10
+Zambia vs Niger,0x1,2x1,False,False,0
+Ghana vs Comoros,1x0,2x1,False,True,10
+Mali vs Madagascar,4x1,2x1,False,True,15
+Scotland vs Belarus,2x1,2x1,True,True,20
+Denmark vs Greece,3x1,2x1,False,True,15
+Netherlands vs Finland,4x0,2x1,False,True,10
+Lithuania vs Poland,0x2,1x2,False,True,15
+Romania vs Austria,1x0,2x1,False,True,10
+Faroe Islands vs Czech Republic,2x1,1x2,False,False,0
+Croatia vs Gibraltar,3x0,3x1,False,True,15
+Uzbekistan vs Uruguay,1x2,2x1,False,False,0
+Cameroon vs Angola,0x0,2x1,False,False,0
+Tunisia vs Namibia,3x0,2x1,False,True,10
+Northern Ireland vs Germany,0x1,1x2,False,True,10
+Slovakia vs Luxembourg,2x0,2x1,False,True,15
+Slovenia vs Switzerland,0x0,1x1,False,True,10
+Sweden vs Kosovo,0x1,2x1,False,False,0
+Iceland vs France,2x2,1x2,False,False,0
+Ukraine vs Azerbaijan,2x1,2x1,True,True,20
+Wales vs Belgium,2x4,1x2,False,True,10
+North Macedonia vs Kazakhstan,1x1,2x1,False,False,0
+Honduras vs Haiti,3x0,2x2,False,False,0
+Costa Rica vs Nicaragua,4x1,2x1,False,True,15
+Albania vs Jordan,4x2,1x1,False,False,0
+Japan vs Brazil,3x2,2x1,False,True,10
+Iran vs Tanzania,2x0,2x1,False,True,15
+Canada vs Colombia,0x0,2x1,False,False,0
+South Korea vs Paraguay,2x0,2x1,False,True,15
+Mexico vs Ecuador,1x1,2x1,False,False,0
+Norway vs New Zealand,1x1,2x1,False,False,0
+Puerto Rico vs Argentina,0x6,1x2,False,True,10
+Russia vs Bolivia,3x0,2x1,False,True,10
+United States vs Australia,2x1,2x1,True,True,20
+Qatar vs United Arab Emirates,2x1,2x1,True,True,20
+Saudi Arabia vs Iraq,0x0,2x1,False,False,0
+Senegal vs Mauritania,4x0,2x1,False,True,10
+Nigeria vs Benin,4x0,2x1,False,True,10
+South Africa vs Rwanda,3x0,2x1,False,True,10
+Morocco vs Congo,1x0,2x1,False,True,10
+Ivory Coast vs Kenya,3x0,2x1,False,True,10
+Algeria vs Uganda,2x1,2x1,True,True,20
+Spain vs Bulgaria,4x0,2x1,False,True,10
+Turkey vs Georgia,4x1,2x1,False,True,15
+Portugal vs Hungary,2x2,2x1,False,False,0
+Republic of Ireland vs Armenia,1x0,2x1,False,True,10
+Italy vs Israel,3x0,2x1,False,True,10
+Andorra vs Serbia,1x3,1x2,False,True,15
+Latvia vs England,0x5,1x2,False,True,10
+Philippines vs Timor-Leste,3x1,3x1,True,True,20
+Bhutan vs Lebanon,0x4,1x4,False,True,15
+India vs Singapore,1x2,2x1,False,False,0
+Taiwan vs Thailand,1x6,1x2,False,True,15
+Myanmar vs Syria,0x3,1x2,False,True,10
+Vietnam vs Nepal,1x0,2x1,False,True,10
+Panama vs Suriname,1x1,2x1,False,False,0
+El Salvador vs Guatemala,0x1,1x2,False,True,10
+Curaçao vs Trinidad and Tobago,1x1,2x1,False,False,0
+Jamaica vs Bermuda,4x0,2x1,False,True,10
+Tunisia vs Mauritania,1x1,2x1,False,False,0
+Russia vs Peru,1x1,1x1,True,True,20
+Cuba vs Saint Lucia,3x0,2x1,False,True,10
+Algeria vs Zimbabwe,3x1,2x1,False,True,15
+Canada vs Ecuador,0x0,2x1,False,False,0
+Czech Republic vs San Marino,1x0,4x1,False,True,10
+Lithuania vs Israel,0x0,1x2,False,False,0
+North Macedonia vs Latvia,0x0,2x1,False,False,0
+Thailand vs Singapore,3x2,2x1,False,True,10
+United Arab Emirates vs Iraq,1x1,2x1,False,False,0
+Cameroon vs DR Congo,0x1,2x1,False,False,0
+Nigeria vs Gabon,4x1,2x1,False,True,15
+France vs Ukraine,4x0,2x1,False,True,10
+Azerbaijan vs Iceland,0x2,1x2,False,True,15
+Republic of Ireland vs Portugal,2x0,1x2,False,False,0
+Armenia vs Hungary,0x1,1x2,False,True,10
+Norway vs Estonia,4x1,2x1,False,True,15
+Moldova vs Italy,0x2,1x2,False,True,15
+England vs Serbia,2x0,2x1,False,True,15
+Andorra vs Albania,0x1,1x2,False,True,10
+Iran vs Cape Verde,0x0,2x1,False,False,0
+Papua New Guinea vs Solomon Islands,1x0,2x2,False,False,0
+Suriname vs El Salvador,4x0,1x2,False,False,0
+Guatemala vs Panama,2x3,2x1,False,False,0
+Bermuda vs Curaçao,0x7,1x2,False,True,10
+Trinidad and Tobago vs Jamaica,1x1,2x1,False,False,0
+Haiti vs Costa Rica,1x0,2x1,False,True,10
+Nicaragua vs Honduras,2x0,1x1,False,False,0
+Angola vs Argentina,0x2,1x2,False,True,15
+Australia vs Venezuela,0x1,2x1,False,False,0
+South Korea vs Bolivia,2x0,2x1,False,True,15
+Morocco vs Mozambique,1x0,2x1,False,True,10
+Oman vs Sudan,2x0,2x1,False,True,15
+Uganda vs Chad,2x1,2x0,False,True,15
+Burkina Faso vs Niger,3x2,2x1,False,True,10
+Japan vs Ghana,2x0,2x1,False,True,15
+Saudi Arabia vs Ivory Coast,1x0,1x1,False,False,0
+Tunisia vs Jordan,3x2,1x1,False,False,0
+Luxembourg vs Germany,0x2,1x2,False,True,15
+Slovakia vs Northern Ireland,1x0,2x1,False,True,10
+Finland vs Malta,0x1,2x1,False,False,0
+Poland vs Netherlands,1x1,2x2,False,True,10
+Croatia vs Faroe Islands,3x1,3x1,True,True,20
+Uzbekistan vs Egypt,2x0,1x1,False,False,0
+Russia vs Chile,0x2,2x1,False,False,0
+Brazil vs Senegal,2x0,2x1,False,True,15
+Colombia vs New Zealand,2x1,1x1,False,False,0
+Mexico vs Uruguay,0x0,2x1,False,False,0
+South Africa vs Zambia,3x1,2x1,False,True,15
+United States vs Paraguay,2x1,2x1,True,True,20
+Slovenia vs Kosovo,0x2,2x1,False,False,0
+Switzerland vs Sweden,4x1,2x1,False,True,15
+Denmark vs Belarus,2x2,2x1,False,False,0
+Greece vs Scotland,3x2,1x1,False,False,0
+Turkey vs Bulgaria,2x0,2x1,False,True,15
+Georgia vs Spain,0x4,1x2,False,True,10
+Cyprus vs Austria,0x2,1x2,False,True,15
+Bosnia and Herzegovina vs Romania,3x1,1x1,False,False,0
+Liechtenstein vs Wales,0x1,1x2,False,True,10
+Kazakhstan vs Belgium,1x1,1x2,False,False,0
+Martinique vs Cuba,0x2,2x2,False,False,0
+Nigeria vs DR Congo,1x1,2x1,False,False,0
+Ukraine vs Iceland,2x0,2x1,False,True,15
+Azerbaijan vs France,1x3,1x2,False,True,15
+Portugal vs Armenia,9x1,3x1,False,True,15
+Hungary vs Republic of Ireland,2x3,1x1,False,False,0
+Moldova vs Israel,1x4,1x2,False,True,15
+Italy vs Norway,1x4,2x1,False,False,0
+Albania vs England,0x2,1x2,False,True,15
+Serbia vs Latvia,2x1,2x1,True,True,20
+Finland vs Andorra,4x0,2x1,False,True,10
+Qatar vs Zimbabwe,1x2,2x1,False,False,0
+Northern Ireland vs Luxembourg,1x0,2x1,False,True,10
+Germany vs Slovakia,6x0,2x1,False,True,10
+Malta vs Poland,2x3,1x2,False,True,10
+Netherlands vs Lithuania,4x0,3x1,False,True,10
+Czech Republic vs Gibraltar,6x0,3x1,False,True,10
+Montenegro vs Croatia,2x3,1x2,False,True,10
+Cape Verde vs Egypt,1x1,1x1,True,True,20
+Vanuatu vs Fiji,2x0,1x2,False,False,0
+Angola vs Zambia,3x2,1x1,False,False,0
+Morocco vs Uganda,4x0,1x1,False,False,0
+Oman vs Ivory Coast,0x2,1x1,False,False,0
+Saudi Arabia vs Algeria,0x2,1x2,False,True,15
+Kenya vs Senegal,0x8,1x1,False,False,0
+Benin vs Burkina Faso,0x3,1x1,False,False,0
+Japan vs Bolivia,3x0,2x1,False,True,10
+Mali vs Jordan,3x2,1x1,False,False,0
+Maldives vs Philippines,0x2,1x2,False,True,15
+Brunei vs Lebanon,0x3,1x3,False,True,15
+Bangladesh vs India,1x0,1x2,False,False,0
+Sri Lanka vs Thailand,0x4,1x2,False,True,10
+Pakistan vs Syria,0x5,1x2,False,True,10
+Brazil vs Tunisia,1x1,2x1,False,False,0
+Canada vs Venezuela,2x0,2x1,False,True,15
+Chile vs Peru,2x1,2x1,True,True,20
+Colombia vs Australia,3x0,1x1,False,False,0
+Ecuador vs New Zealand,2x0,1x1,False,False,0
+South Korea vs Ghana,1x0,2x1,False,True,10
+Mexico vs Paraguay,1x2,2x1,False,False,0
+United States vs Uruguay,5x1,2x1,False,True,15
+Iraq vs United Arab Emirates,2x1,1x1,False,False,0
+Kosovo vs Switzerland,1x1,1x2,False,False,0
+Sweden vs Slovenia,1x1,2x1,False,False,0
+Scotland vs Denmark,4x2,1x2,False,False,0
+Belarus vs Greece,0x0,1x1,False,True,10
+Spain vs Turkey,2x2,2x1,False,False,0
+Bulgaria vs Georgia,2x1,2x1,True,True,20
+Austria vs Bosnia and Herzegovina,1x1,2x1,False,False,0
+Romania vs San Marino,7x1,4x1,False,True,15
+Wales vs North Macedonia,7x1,1x1,False,False,0
+Belgium vs Liechtenstein,7x0,3x1,False,True,10
+Iran vs Uzbekistan,0x0,2x1,False,False,0
+Guatemala vs Suriname,3x1,2x1,False,True,15
+Panama vs El Salvador,3x0,2x1,False,True,10
+Jamaica vs Curaçao,0x0,1x2,False,False,0
+Trinidad and Tobago vs Bermuda,2x2,2x1,False,False,0
+Costa Rica vs Honduras,0x0,2x1,False,False,0
+Haiti vs Nicaragua,2x0,2x1,False,True,15
+Laos vs Vietnam,0x2,1x3,False,True,10
+Vanuatu vs Solomon Islands,2x1,2x2,False,False,0
+Papua New Guinea vs Fiji,2x0,1x2,False,False,0
+Syria vs South Sudan,2x0,2x1,False,True,15
+Oman vs Somalia,0x0,2x1,False,False,0
+Sudan vs Lebanon,2x1,1x1,False,False,0
+Tunisia vs Syria,0x1,2x1,False,False,0
+Qatar vs Palestine,0x1,2x1,False,False,0
+Morocco vs Comoros,3x1,2x1,False,True,15
+Saudi Arabia vs Oman,2x1,2x1,True,True,20
+Egypt vs Kuwait,1x1,2x1,False,False,0
+Jordan vs United Arab Emirates,2x1,2x1,True,True,20
+Algeria vs Sudan,0x0,2x1,False,False,0
+Iraq vs Bahrain,2x1,2x1,True,True,20
+Palestine vs Tunisia,2x2,1x2,False,False,0
+Qatar vs Syria,1x1,2x1,False,False,0
+Oman vs Morocco,0x0,1x1,False,True,10
+Comoros vs Saudi Arabia,1x3,1x2,False,True,15
+Kuwait vs Jordan,1x3,1x2,False,True,15
+United Arab Emirates vs Egypt,1x1,1x1,True,True,20
+Bahrain vs Algeria,1x5,1x2,False,True,15
+Sudan vs Iraq,0x2,1x2,False,True,15
+Qatar vs Tunisia,0x3,2x1,False,False,0
+Syria vs Palestine,0x0,2x1,False,False,0
+Morocco vs Saudi Arabia,1x0,2x1,False,True,10
+Oman vs Comoros,2x1,2x1,True,True,20
+Egypt vs Jordan,0x3,1x1,False,False,0
+United Arab Emirates vs Kuwait,3x1,2x1,False,True,15
+Algeria vs Iraq,2x0,2x1,False,True,15
+Morocco vs Syria,1x0,2x1,False,True,10
+Palestine vs Saudi Arabia,1x2,1x2,True,True,20
+Jordan vs Iraq,1x0,2x1,False,True,10
+Algeria vs United Arab Emirates,1x1,2x1,False,False,0
+Morocco vs United Arab Emirates,3x0,2x1,False,True,10
+Saudi Arabia vs Jordan,0x1,1x1,False,False,0
+Jordan vs Morocco,2x3,1x1,False,False,0
+Morocco vs Comoros,2x0,2x1,False,True,15
+Mali vs Zambia,1x1,2x1,False,False,0
+South Africa vs Angola,2x1,2x1,True,True,20
+Egypt vs Zimbabwe,2x1,2x1,True,True,20
+Nigeria vs Tanzania,2x1,2x1,True,True,20
+Tunisia vs Uganda,3x1,1x1,False,False,0
+Senegal vs Botswana,3x0,2x1,False,True,10
+Burkina Faso vs Equatorial Guinea,2x1,2x1,True,True,20
+Algeria vs Sudan,3x0,2x1,False,True,10
+Ivory Coast vs Mozambique,1x0,2x1,False,True,10
+Cameroon vs Gabon,1x0,2x1,False,True,10
+Zambia vs Comoros,0x0,2x1,False,False,0
+Morocco vs Mali,1x1,1x1,True,True,20
+Egypt vs South Africa,1x0,1x1,False,False,0
+Uganda vs Tanzania,1x1,2x1,False,False,0
+Nigeria vs Tunisia,3x2,1x1,False,False,0
+Senegal vs DR Congo,1x1,2x1,False,False,0
+Algeria vs Burkina Faso,1x0,2x1,False,True,10
+Ivory Coast vs Cameroon,1x1,1x1,True,True,20
+Morocco vs Zambia,3x0,2x1,False,True,10
+Comoros vs Mali,0x0,1x1,False,True,10
+Angola vs Egypt,0x0,1x1,False,True,10
+Zimbabwe vs South Africa,2x3,1x1,False,False,0
+Uganda vs Nigeria,1x3,1x1,False,False,0
+Tanzania vs Tunisia,1x1,1x2,False,False,0
+Benin vs Senegal,0x3,1x2,False,True,10
+Equatorial Guinea vs Algeria,1x3,1x2,False,True,15
+Sudan vs Burkina Faso,0x2,1x2,False,True,15
+Gabon vs Ivory Coast,2x3,1x1,False,False,0
+Mozambique vs Cameroon,1x2,1x1,False,False,0
+Senegal vs Sudan,3x1,2x0,False,True,10
+Mali vs Tunisia,1x1,1x1,True,True,20
+Morocco vs Tanzania,1x0,2x1,False,True,10
+South Africa vs Cameroon,1x2,1x1,False,False,0
+Egypt vs Benin,3x1,2x1,False,True,15
+Nigeria vs Mozambique,4x0,2x1,False,True,10
+Algeria vs DR Congo,1x0,2x1,False,True,10
+Ivory Coast vs Burkina Faso,3x0,2x1,False,True,10
+Mali vs Senegal,0x1,1x1,False,False,0
+Morocco vs Cameroon,2x0,2x1,False,True,15
+Algeria vs Nigeria,0x2,2x1,False,False,0
+Egypt vs Ivory Coast,3x2,1x1,False,False,0
+Senegal vs Egypt,1x0,1x1,False,False,0
+Morocco vs Nigeria,0x0,2x1,False,False,0
+Egypt vs Nigeria,0x0,1x1,False,True,10
+Morocco vs Senegal,0x1,1x1,False,False,0
+Bolivia vs Panama,1x1,1x2,False,False,0
+Grenada vs Jamaica,0x1,1x3,False,True,10
+Panama vs Mexico,0x1,1x2,False,True,10
+Bolivia vs Mexico,0x1,1x2,False,True,10
+Uzbekistan vs China PR,2x2,2x1,False,False,0
