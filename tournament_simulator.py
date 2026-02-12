@@ -77,11 +77,14 @@ def simulate_group_stage(team_stats_dict):
 
 def get_default_stats():
     """Retorna estatísticas padrão para times sem dados"""
+    # Esta função é mantida para compatibilidade
+    # Use get_team_strength_stats() do módulo team_strength para resultados melhores
     return {
         'avg_goals_scored': 1.3,
         'avg_goals_conceded': 1.3,
         'strength': 50,
-        'recent_form': 0.5
+        'recent_form': 0.5,
+        'total_games': 50
     }
 
 def simulate_knockout_stage(group_results, team_stats_dict):

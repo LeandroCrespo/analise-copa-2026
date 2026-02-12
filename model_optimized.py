@@ -47,14 +47,14 @@ def predict_match_optimized(home_stats, away_stats, max_goals=2):
     lambda_home = home_avg * home_strength * (1 + home_advantage) / away_strength
     lambda_away = away_avg * away_strength / home_strength
     
-    # Regressão à média (mais agressiva)
+    # Regressão à média (reduzida para dar placares mais variados)
     mean_goals = 1.3  # Média histórica de gols
-    lambda_home = 0.4 * lambda_home + 0.6 * mean_goals
-    lambda_away = 0.4 * lambda_away + 0.6 * mean_goals
+    lambda_home = 0.7 * lambda_home + 0.3 * mean_goals  # 70% força, 30% média
+    lambda_away = 0.7 * lambda_away + 0.3 * mean_goals
     
-    # Limitar lambdas para evitar placares extremos
-    lambda_home = min(lambda_home, 2.0)
-    lambda_away = min(lambda_away, 2.0)
+    # Limitar lambdas para evitar placares extremos (aumentado para 2.5)
+    lambda_home = min(lambda_home, 2.5)
+    lambda_away = min(lambda_away, 2.5)
     
     # Calcular probabilidades para placares conservadores
     placares_conservadores = [
@@ -73,7 +73,8 @@ def predict_match_optimized(home_stats, away_stats, max_goals=2):
         prob_scores = {k: v/total_prob for k, v in prob_scores.items()}
     
     # Escolher placar com maior probabilidade
-    best_score = max(prob_scores.items(), key=lambda x: x[1])
+    # Em caso de empate, preferir vitória do favorito
+    best_score = max(prob_scores.items(), key=lambda x: (x[1], abs(x[0][0] - x[0][1])))
     home_goals, away_goals = best_score[0]
     
     # Calcular probabilidades de resultado

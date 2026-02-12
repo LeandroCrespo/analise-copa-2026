@@ -182,7 +182,8 @@ elif page == "🏆 Jogos da Copa":
     st.header("🏆 Todos os Jogos da Copa 2026")
     
     from copa_2026_structure import GRUPOS_COPA_2026, get_all_group_matches
-    from tournament_simulator import simulate_group_stage, get_default_stats
+    from tournament_simulator import simulate_group_stage
+    from team_strength import get_team_strength_stats
     
     st.info("📊 **104 jogos** | 72 da fase de grupos + 32 do mata-mata")
     
@@ -191,6 +192,7 @@ elif page == "🏆 Jogos da Copa":
     teams_df = get_teams()
     
     # Buscar estatísticas reais do banco
+    stats_loaded = 0
     if len(teams_df) > 0:
         for _, row in teams_df.iterrows():
             team_name = row['name']
@@ -198,12 +200,19 @@ elif page == "🏆 Jogos da Copa":
             stats = get_team_stats(team_id)
             if stats:
                 team_stats[team_name] = stats
+                stats_loaded += 1
     
-    # Completar com estatísticas padrão para times sem dados
+    # Usar força estimada para times da Copa (mais realista que padrão)
     for grupo, teams in GRUPOS_COPA_2026.items():
         for team in teams:
             if team not in team_stats:
-                team_stats[team] = get_default_stats()
+                team_stats[team] = get_team_strength_stats(team)
+    
+    # Mostrar quantas estatísticas foram carregadas
+    if stats_loaded > 0:
+        st.success(f"✅ {stats_loaded} times com dados reais do banco | {48 - stats_loaded} com força estimada")
+    else:
+        st.warning("⚠️ Usando força estimada para todos os times (problema de conexão com banco)")
     
     # Simular fase de grupos
     with st.spinner('🔄 Simulando fase de grupos...'):
@@ -229,8 +238,8 @@ elif page == "🏆 Jogos da Copa":
                     away = teams[j]
                     
                     # Obter estatísticas
-                    home_stats = team_stats.get(home, get_default_stats())
-                    away_stats = team_stats.get(away, get_default_stats())
+                    home_stats = team_stats.get(home, get_team_strength_stats(home))
+                    away_stats = team_stats.get(away, get_team_strength_stats(away))
                     
                     # Prever placar
                     from model_optimized import predict_match_optimized
@@ -261,7 +270,8 @@ elif page == "📊 Classificação & Pódio":
     st.header("📊 Classificação dos Grupos & Pódio")
     
     from copa_2026_structure import GRUPOS_COPA_2026
-    from tournament_simulator import simulate_group_stage, simulate_knockout_stage, simulate_full_tournament, get_default_stats
+    from tournament_simulator import simulate_group_stage, simulate_knockout_stage, simulate_full_tournament
+    from team_strength import get_team_strength_stats
     
     st.info("🎯 **Palpites necessários para o Bolão:** Classificação de cada grupo (1º e 2º) + Pódio (1º, 2º, 3º lugar)")
     
@@ -270,6 +280,7 @@ elif page == "📊 Classificação & Pódio":
     teams_df = get_teams()
     
     # Buscar estatísticas reais do banco
+    stats_loaded = 0
     if len(teams_df) > 0:
         for _, row in teams_df.iterrows():
             team_name = row['name']
@@ -277,12 +288,19 @@ elif page == "📊 Classificação & Pódio":
             stats = get_team_stats(team_id)
             if stats:
                 team_stats[team_name] = stats
+                stats_loaded += 1
     
-    # Completar com estatísticas padrão para times sem dados
+    # Usar força estimada para times da Copa
     for grupo, teams in GRUPOS_COPA_2026.items():
         for team in teams:
             if team not in team_stats:
-                team_stats[team] = get_default_stats()
+                team_stats[team] = get_team_strength_stats(team)
+    
+    # Mostrar status
+    if stats_loaded > 0:
+        st.success(f"✅ {stats_loaded} times com dados reais | {48 - stats_loaded} com força estimada")
+    else:
+        st.warning("⚠️ Usando força estimada para todos os times")
     
     # Simular fase de grupos
     with st.spinner('🔄 Simulando torneio completo...'):
