@@ -40,21 +40,35 @@ def predict_match_optimized(home_stats, away_stats, max_goals=2):
     home_strength = home_stats.get('strength', 50) / 100
     away_strength = away_stats.get('strength', 50) / 100
     
-    # Vantagem de casa (reduzida para ser mais conservador)
-    home_advantage = 0.2
+    # Copa do Mundo = campo neutro (SEM vantagem de casa!)
+    home_advantage = 0.0
     
     # Lambda para distribuição de Poisson
     lambda_home = home_avg * home_strength * (1 + home_advantage) / away_strength
     lambda_away = away_avg * away_strength / home_strength
     
-    # Regressão à média (reduzida para dar placares mais variados)
+    # Regressão à média (mínima para máxima variedade)
     mean_goals = 1.3  # Média histórica de gols
-    lambda_home = 0.7 * lambda_home + 0.3 * mean_goals  # 70% força, 30% média
-    lambda_away = 0.7 * lambda_away + 0.3 * mean_goals
+    lambda_home = 0.95 * lambda_home + 0.05 * mean_goals  # 95% força, 5% média
+    lambda_away = 0.95 * lambda_away + 0.05 * mean_goals
     
-    # Limitar lambdas para evitar placares extremos (aumentado para 2.5)
-    lambda_home = min(lambda_home, 2.5)
-    lambda_away = min(lambda_away, 2.5)
+    # Adicionar pequena variação baseada na diferença de força
+    # Isso cria mais diversidade nos placares
+    strength_diff = abs(home_strength - away_strength)
+    if strength_diff < 0.1:  # Times muito equilibrados
+        # Reduzir lambdas para favorecer placares baixos (0x0, 1x1)
+        lambda_home *= 0.9
+        lambda_away *= 0.9
+    elif strength_diff > 0.3:  # Grande diferença
+        # Aumentar lambda do favorito
+        if home_strength > away_strength:
+            lambda_home *= 1.1
+        else:
+            lambda_away *= 1.1
+    
+    # Limitar lambdas para evitar placares extremos (aumentado para 3.0)
+    lambda_home = min(lambda_home, 3.0)
+    lambda_away = min(lambda_away, 3.0)
     
     # Calcular probabilidades para placares conservadores
     placares_conservadores = [
@@ -72,10 +86,26 @@ def predict_match_optimized(home_stats, away_stats, max_goals=2):
     if total_prob > 0:
         prob_scores = {k: v/total_prob for k, v in prob_scores.items()}
     
-    # Escolher placar com maior probabilidade
-    # Em caso de empate, preferir vitória do favorito
-    best_score = max(prob_scores.items(), key=lambda x: (x[1], abs(x[0][0] - x[0][1])))
-    home_goals, away_goals = best_score[0]
+    # Escolher placar de forma mais inteligente
+    # 1. Calcular probabilidade de cada resultado
+    prob_home_win = sum(p for (h, a), p in prob_scores.items() if h > a)
+    prob_draw = sum(p for (h, a), p in prob_scores.items() if h == a)
+    prob_away_win = sum(p for (h, a), p in prob_scores.items() if h < a)
+    
+    # 2. Determinar resultado mais provável
+    if prob_home_win > prob_draw and prob_home_win > prob_away_win:
+        # Vitória mandante: escolher entre 1x0, 2x0, 2x1
+        candidates = [(h, a) for (h, a) in prob_scores.keys() if h > a]
+    elif prob_away_win > prob_draw and prob_away_win > prob_home_win:
+        # Vitória visitante: escolher entre 0x1, 0x2, 1x2
+        candidates = [(h, a) for (h, a) in prob_scores.keys() if h < a]
+    else:
+        # Empate: escolher entre 0x0, 1x1, 2x2
+        candidates = [(h, a) for (h, a) in prob_scores.keys() if h == a]
+    
+    # 3. Dentro do resultado, escolher placar com maior probabilidade
+    best_score = max(candidates, key=lambda x: prob_scores[x])
+    home_goals, away_goals = best_score
     
     # Calcular probabilidades de resultado
     prob_home_win = sum(p for (h, a), p in prob_scores.items() if h > a)
