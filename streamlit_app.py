@@ -13,12 +13,16 @@ import os
 # Adicionar diretório src ao path
 sys.path.append(os.path.join(os.path.dirname(__file__), 'src'))
 
-# Importar modelo otimizado
+# Importar modelo ML
 try:
     sys.path.append(os.path.dirname(__file__))
-    from model_optimized import predict_match_optimized, get_best_conservative_scores
-except:
-    st.error("Erro ao importar modelo. Verifique se model_optimized.py está no diretório.")
+    from model_ml import predict_match_ml
+    from team_strength import get_team_strength_stats
+    MODEL_TYPE = 'ML'
+except Exception as e:
+    st.warning(f"⚠️ Modelo ML não disponível ({e}), usando fallback")
+    from model_optimized import predict_match_optimized
+    MODEL_TYPE = 'Fallback'
 
 # Configuração da página
 st.set_page_config(
@@ -241,9 +245,11 @@ elif page == "🏆 Jogos da Copa":
                     home_stats = team_stats.get(home, get_team_strength_stats(home))
                     away_stats = team_stats.get(away, get_team_strength_stats(away))
                     
-                    # Prever placar
-                    from model_optimized import predict_match_optimized
-                    prediction = predict_match_optimized(home_stats, away_stats)
+                    # Prever placar usando ML
+                    if MODEL_TYPE == 'ML':
+                        prediction = predict_match_ml(home_stats, away_stats)
+                    else:
+                        prediction = predict_match_optimized(home_stats, away_stats)
                     
                     # Exibir previsão
                     col1, col2, col3 = st.columns([2, 1, 2])
@@ -444,8 +450,11 @@ elif page == "🎯 Previsões":
                     away_stats = get_team_stats(away_id)
                     
                     if home_stats and away_stats:
-                        # Gerar previsão
-                        prediction = predict_match_optimized(home_stats, away_stats)
+                        # Gerar previsão usando ML
+                        if MODEL_TYPE == 'ML':
+                            prediction = predict_match_ml(home_stats, away_stats)
+                        else:
+                            prediction = predict_match_optimized(home_stats, away_stats)
                         
                         st.success("✅ Previsão Gerada!")
                         

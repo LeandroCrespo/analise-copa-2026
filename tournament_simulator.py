@@ -5,13 +5,23 @@ Usa Monte Carlo para simular todo o torneio e gerar previsões
 
 import numpy as np
 from copa_2026_structure import GRUPOS_COPA_2026, get_all_group_matches
-from model_optimized import predict_match_optimized
+
+# Tentar usar modelo ML, fallback para otimizado
+try:
+    from model_ml import predict_match_ml
+    USE_ML = True
+except:
+    from model_optimized import predict_match_optimized
+    USE_ML = False
 
 def simulate_match(team1_stats, team2_stats):
     """
     Simula um jogo e retorna o resultado
     """
-    prediction = predict_match_optimized(team1_stats, team2_stats)
+    if USE_ML:
+        prediction = predict_match_ml(team1_stats, team2_stats)
+    else:
+        prediction = predict_match_optimized(team1_stats, team2_stats)
     return prediction['home_goals'], prediction['away_goals']
 
 def simulate_group_stage(team_stats_dict):
