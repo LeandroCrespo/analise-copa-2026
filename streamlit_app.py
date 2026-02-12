@@ -13,16 +13,20 @@ import os
 # Adicionar diretório src ao path
 sys.path.append(os.path.join(os.path.dirname(__file__), 'src'))
 
-# Importar modelo ML
+# Importar modelo ML - Voting Soft Ensemble (MELHOR MODELO)
 try:
     sys.path.append(os.path.dirname(__file__))
-    from model_ml import predict_match_ml
+    from model_ml_voting import predict_match_voting
     from team_strength import get_team_strength_stats
-    MODEL_TYPE = 'ML'
+    MODEL_TYPE = 'Voting Soft'
 except Exception as e:
-    st.warning(f"⚠️ Modelo ML não disponível ({e}), usando fallback")
-    from model_optimized import predict_match_optimized
-    MODEL_TYPE = 'Fallback'
+    st.warning(f"⚠️ Modelo Voting Soft não disponível ({e}), usando fallback")
+    try:
+        from model_ml import predict_match_ml
+        MODEL_TYPE = 'ML Fallback'
+    except:
+        from model_optimized import predict_match_optimized
+        MODEL_TYPE = 'Simple Fallback'
 
 # Configuração da página
 st.set_page_config(
@@ -245,8 +249,10 @@ elif page == "🏆 Jogos da Copa":
                     home_stats = team_stats.get(home, get_team_strength_stats(home))
                     away_stats = team_stats.get(away, get_team_strength_stats(away))
                     
-                    # Prever placar usando ML
-                    if MODEL_TYPE == 'ML':
+                    # Prever placar usando Voting Soft Ensemble
+                    if MODEL_TYPE == 'Voting Soft':
+                        prediction = predict_match_voting(home_stats, away_stats)
+                    elif MODEL_TYPE == 'ML Fallback':
                         prediction = predict_match_ml(home_stats, away_stats)
                     else:
                         prediction = predict_match_optimized(home_stats, away_stats)
@@ -450,8 +456,10 @@ elif page == "🎯 Previsões":
                     away_stats = get_team_stats(away_id)
                     
                     if home_stats and away_stats:
-                        # Gerar previsão usando ML
-                        if MODEL_TYPE == 'ML':
+                        # Gerar previsão usando Voting Soft Ensemble
+                        if MODEL_TYPE == 'Voting Soft':
+                            prediction = predict_match_voting(home_stats, away_stats)
+                        elif MODEL_TYPE == 'ML Fallback':
                             prediction = predict_match_ml(home_stats, away_stats)
                         else:
                             prediction = predict_match_optimized(home_stats, away_stats)

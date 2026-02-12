@@ -6,19 +6,25 @@ Usa Monte Carlo para simular todo o torneio e gerar previsões
 import numpy as np
 from copa_2026_structure import GRUPOS_COPA_2026, get_all_group_matches
 
-# Tentar usar modelo ML, fallback para otimizado
+# Tentar usar Voting Soft Ensemble (melhor modelo), fallback para outros
 try:
-    from model_ml import predict_match_ml
-    USE_ML = True
+    from model_ml_voting import predict_match_voting
+    MODEL_TYPE = 'voting_soft'
 except:
-    from model_optimized import predict_match_optimized
-    USE_ML = False
+    try:
+        from model_ml import predict_match_ml
+        MODEL_TYPE = 'ml'
+    except:
+        from model_optimized import predict_match_optimized
+        MODEL_TYPE = 'optimized'
 
 def simulate_match(team1_stats, team2_stats):
     """
     Simula um jogo e retorna o resultado
     """
-    if USE_ML:
+    if MODEL_TYPE == 'voting_soft':
+        prediction = predict_match_voting(team1_stats, team2_stats)
+    elif MODEL_TYPE == 'ml':
         prediction = predict_match_ml(team1_stats, team2_stats)
     else:
         prediction = predict_match_optimized(team1_stats, team2_stats)
