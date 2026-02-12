@@ -4,9 +4,9 @@ Força dos times baseada em DADOS REAIS:
 2. Ranking FIFA (19 Janeiro 2026)
 
 Força calculada como:
-- 40% baseada em gols marcados vs média
-- 30% baseada em gols sofridos vs média  
-- 30% baseada em ranking FIFA normalizado
+- 10% baseada em gols marcados vs média
+- 10% baseada em gols sofridos vs média  
+- 80% baseada em ranking FIFA normalizado
 """
 
 # Dados históricos do Neon (gols por jogo desde 2020)
@@ -118,9 +118,9 @@ def calculate_team_strength(team_name):
     Calcula força do time (0-100) baseada em dados reais.
     
     Fórmula:
-    - 20% baseada em gols marcados (vs média de 1.66)
-    - 20% baseada em gols sofridos (vs média de 1.05)
-    - 60% baseada em ranking FIFA normalizado
+    - 10% baseada em gols marcados (vs média de 1.66)
+    - 10% baseada em gols sofridos (vs média de 1.05)
+    - 80% baseada em ranking FIFA normalizado
     """
     # Médias gerais
     AVG_GOALS_SCORED = 1.66
@@ -149,9 +149,9 @@ def calculate_team_strength(team_name):
     
     # Força final (média ponderada)
     strength = (
-        0.20 * scored_component +
-        0.20 * conceded_component +
-        0.60 * fifa_component
+        0.10 * scored_component +
+        0.10 * conceded_component +
+        0.80 * fifa_component
     )
     
     return round(strength, 1)
