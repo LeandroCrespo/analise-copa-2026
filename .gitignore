@@ -53,3 +53,16 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Backtesting files
+backtest*.py
+backtest*.txt
+backtest*.json
+calibrate*.py
+calibration*.txt
+calibration*.json
+model_v2.py
+model_v3.py
+all_matches.json
+historical_matches_raw.txt
+neon_matches*.json
