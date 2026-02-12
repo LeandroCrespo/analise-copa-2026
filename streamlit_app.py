@@ -35,7 +35,7 @@ st.markdown("---")
 # Função para conectar ao Neon
 @st.cache_resource
 def get_connection():
-    """Conecta ao Neon PostgreSQL usando secrets"""
+    """Conecta ao Neon PostgreSQL usando secrets com configurações otimizadas"""
     try:
         # Tentar usar secrets do Streamlit Cloud
         if hasattr(st, 'secrets') and 'neon' in st.secrets:
@@ -45,7 +45,16 @@ def get_connection():
             st.warning("⚠️ Usando configuração local. Configure secrets no Streamlit Cloud.")
             return None
         
-        conn = psycopg2.connect(conn_string)
+        # Conectar com timeout e autocommit
+        conn = psycopg2.connect(
+            conn_string,
+            connect_timeout=10,
+            keepalives=1,
+            keepalives_idle=30,
+            keepalives_interval=10,
+            keepalives_count=5
+        )
+        conn.autocommit = True
         return conn
     except Exception as e:
         st.error(f"❌ Erro ao conectar ao banco: {e}")
