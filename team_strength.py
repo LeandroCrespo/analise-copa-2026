@@ -118,9 +118,9 @@ def calculate_team_strength(team_name):
     Calcula força do time (0-100) baseada em dados reais.
     
     Fórmula:
-    - 40% baseada em gols marcados (vs média de 1.66)
-    - 30% baseada em gols sofridos (vs média de 1.05)
-    - 30% baseada em ranking FIFA normalizado
+    - 20% baseada em gols marcados (vs média de 1.66)
+    - 20% baseada em gols sofridos (vs média de 1.05)
+    - 60% baseada em ranking FIFA normalizado
     """
     # Médias gerais
     AVG_GOALS_SCORED = 1.66
@@ -149,9 +149,9 @@ def calculate_team_strength(team_name):
     
     # Força final (média ponderada)
     strength = (
-        0.40 * scored_component +
-        0.30 * conceded_component +
-        0.30 * fifa_component
+        0.20 * scored_component +
+        0.20 * conceded_component +
+        0.60 * fifa_component
     )
     
     return round(strength, 1)
