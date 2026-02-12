@@ -133,7 +133,7 @@ with st.sidebar:
     st.header("📊 Navegação")
     page = st.radio(
         "Escolha uma página:",
-        ["🏠 Home", "🎯 Previsões", "📊 Estatísticas", "ℹ️ Sobre"]
+        ["🏠 Home", "🏆 Jogos da Copa", "🎯 Previsões", "📊 Classificação & Pódio", "📊 Estatísticas", "ℹ️ Sobre"]
     )
 
 # Página Home
@@ -176,6 +176,216 @@ if page == "🏠 Home":
     - Eliminatórias atualizadas
     - Durante a Copa, resultados diários
     """)
+
+# Página Jogos da Copa
+elif page == "🏆 Jogos da Copa":
+    st.header("🏆 Todos os Jogos da Copa 2026")
+    
+    from copa_2026_structure import GRUPOS_COPA_2026, get_all_group_matches
+    from tournament_simulator import simulate_group_stage, get_default_stats
+    
+    st.info("📊 **104 jogos** | 72 da fase de grupos + 32 do mata-mata")
+    
+    # Criar dicionário de estatísticas
+    team_stats = {}
+    teams_df = get_teams()
+    
+    # Buscar estatísticas reais do banco
+    if len(teams_df) > 0:
+        for _, row in teams_df.iterrows():
+            team_name = row['name']
+            team_id = row['id']
+            stats = get_team_stats(team_id)
+            if stats:
+                team_stats[team_name] = stats
+    
+    # Completar com estatísticas padrão para times sem dados
+    for grupo, teams in GRUPOS_COPA_2026.items():
+        for team in teams:
+            if team not in team_stats:
+                team_stats[team] = get_default_stats()
+    
+    # Simular fase de grupos
+    with st.spinner('🔄 Simulando fase de grupos...'):
+        group_results = simulate_group_stage(team_stats)
+    
+    # Mostrar jogos por grupo
+    st.subheader("🏆 Fase de Grupos")
+    
+    for grupo in sorted(GRUPOS_COPA_2026.keys()):
+        with st.expander(f"Grupo {grupo}", expanded=False):
+            teams = GRUPOS_COPA_2026[grupo]
+            
+            # Mostrar times do grupo
+            st.markdown(f"**Times:** {', '.join(teams)}")
+            st.markdown("---")
+            
+            # Gerar e mostrar jogos
+            st.markdown("**Jogos:**")
+            
+            for i in range(len(teams)):
+                for j in range(i + 1, len(teams)):
+                    home = teams[i]
+                    away = teams[j]
+                    
+                    # Obter estatísticas
+                    home_stats = team_stats.get(home, get_default_stats())
+                    away_stats = team_stats.get(away, get_default_stats())
+                    
+                    # Prever placar
+                    from model_optimized import predict_match_optimized
+                    prediction = predict_match_optimized(home_stats, away_stats)
+                    
+                    # Exibir previsão
+                    col1, col2, col3 = st.columns([2, 1, 2])
+                    with col1:
+                        st.markdown(f"**{home}**")
+                    with col2:
+                        st.markdown(f"<center><b>{prediction['home_goals']} x {prediction['away_goals']}</b></center>", unsafe_allow_html=True)
+                    with col3:
+                        st.markdown(f"**{away}**")
+            
+            # Mostrar classificação prevista
+            st.markdown("---")
+            st.markdown("**Classificação Prevista:**")
+            standings = group_results[grupo]['standings']
+            for idx, (team, stats) in enumerate(standings, 1):
+                emoji = "🥇" if idx == 1 else "🥈" if idx == 2 else "🥉" if idx == 3 else "⚪"
+                st.markdown(f"{emoji} **{idx}º {team}** - {stats['points']} pts | SG: {stats['gd']:+d} | {stats['gf']} gols")
+    
+    st.markdown("---")
+    st.info("ℹ️ **Mata-mata será adicionado em breve** com base nos classificados da fase de grupos")
+
+# Página Classificação & Pódio
+elif page == "📊 Classificação & Pódio":
+    st.header("📊 Classificação dos Grupos & Pódio")
+    
+    from copa_2026_structure import GRUPOS_COPA_2026
+    from tournament_simulator import simulate_group_stage, simulate_knockout_stage, simulate_full_tournament, get_default_stats
+    
+    st.info("🎯 **Palpites necessários para o Bolão:** Classificação de cada grupo (1º e 2º) + Pódio (1º, 2º, 3º lugar)")
+    
+    # Criar dicionário de estatísticas
+    team_stats = {}
+    teams_df = get_teams()
+    
+    # Buscar estatísticas reais do banco
+    if len(teams_df) > 0:
+        for _, row in teams_df.iterrows():
+            team_name = row['name']
+            team_id = row['id']
+            stats = get_team_stats(team_id)
+            if stats:
+                team_stats[team_name] = stats
+    
+    # Completar com estatísticas padrão para times sem dados
+    for grupo, teams in GRUPOS_COPA_2026.items():
+        for team in teams:
+            if team not in team_stats:
+                team_stats[team] = get_default_stats()
+    
+    # Simular fase de grupos
+    with st.spinner('🔄 Simulando torneio completo...'):
+        group_results = simulate_group_stage(team_stats)
+    
+    # Mostrar classificação dos grupos
+    st.subheader("🏆 Classificação dos Grupos")
+    st.caption("📊 Baseado em simulação com dados históricos de 7.623 jogos")
+    
+    # Criar tabela resumida
+    classificacao_data = []
+    for grupo in sorted(GRUPOS_COPA_2026.keys()):
+        standings = group_results[grupo]['standings']
+        primeiro = standings[0][0]
+        segundo = standings[1][0]
+        
+        classificacao_data.append({
+            'Grupo': grupo,
+            '1º Lugar': f"🥇 {primeiro}",
+            '2º Lugar': f"🥈 {segundo}",
+            'Pts 1º': standings[0][1]['points'],
+            'Pts 2º': standings[1][1]['points']
+        })
+    
+    import pandas as pd
+    df_class = pd.DataFrame(classificacao_data)
+    st.dataframe(df_class, use_container_width=True, hide_index=True)
+    
+    # Detalhes por grupo
+    st.markdown("---")
+    st.subheader("🔍 Detalhes por Grupo")
+    
+    cols = st.columns(3)
+    for idx, grupo in enumerate(sorted(GRUPOS_COPA_2026.keys())):
+        with cols[idx % 3]:
+            with st.container(border=True):
+                st.markdown(f"### Grupo {grupo}")
+                standings = group_results[grupo]['standings']
+                for pos, (team, stats) in enumerate(standings, 1):
+                    emoji = "🥇" if pos == 1 else "🥈" if pos == 2 else "🥉" if pos == 3 else "⚪"
+                    color = "green" if pos <= 2 else "orange" if pos == 3 else "red"
+                    st.markdown(f":{color}[{emoji} **{pos}º** {team}]")
+                    st.caption(f"{stats['points']} pts | SG {stats['gd']:+d} | {stats['gf']} gols")
+    
+    # Simular torneio completo para pódio
+    st.markdown("---")
+    st.subheader("🏆 Pódio Previsto")
+    
+    with st.spinner('🔄 Simulando mata-mata (1000x)...'):
+        tournament_results = simulate_full_tournament(team_stats, n_simulations=1000)
+    
+    # Mostrar top 3 candidatos ao título
+    st.markdown("### 🥇 Candidatos ao Título")
+    champion_probs = tournament_results['champion_probabilities']
+    top_champions = list(champion_probs.items())[:5]
+    
+    for idx, (team, prob) in enumerate(top_champions, 1):
+        emoji = "🥇" if idx == 1 else "🥈" if idx == 2 else "🥉" if idx == 3 else "🎯"
+        st.markdown(f"{emoji} **{team}** - {prob*100:.1f}% de chance")
+        st.progress(prob)
+    
+    # Mostrar top 10 candidatos ao pódio
+    st.markdown("---")
+    st.markdown("### 🏆 Candidatos ao Pódio (Top 3)")
+    podium_probs = tournament_results['podium_probabilities']
+    top_podium = list(podium_probs.items())[:10]
+    
+    cols = st.columns(2)
+    for idx, (team, prob) in enumerate(top_podium):
+        with cols[idx % 2]:
+            st.metric(team, f"{prob*100:.1f}%", delta="Pódio")
+    
+    # Simular mata-mata uma vez para mostrar pódio previsto
+    st.markdown("---")
+    st.markdown("### 🏆 Pódio Mais Provável")
+    
+    knockout_results = simulate_knockout_stage(group_results, team_stats)
+    
+    col1, col2, col3 = st.columns(3)
+    
+    with col1:
+        st.markdown("### 🥇 Campeão")
+        if knockout_results['champion']:
+            st.success(f"**{knockout_results['champion']}**")
+        else:
+            st.info("A definir")
+    
+    with col2:
+        st.markdown("### 🥈 Vice")
+        if knockout_results['runner_up']:
+            st.info(f"**{knockout_results['runner_up']}**")
+        else:
+            st.info("A definir")
+    
+    with col3:
+        st.markdown("### 🥉 3º Lugar")
+        if knockout_results['third_place']:
+            st.warning(f"**{knockout_results['third_place']}**")
+        else:
+            st.info("A definir")
+    
+    st.markdown("---")
+    st.caption("ℹ️ Previsões baseadas em 1000 simulações Monte Carlo com dados históricos")
 
 # Página Previsões
 elif page == "🎯 Previsões":
