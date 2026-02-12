@@ -161,13 +161,15 @@ def get_team_strength_stats(team_name):
     Retorna estatísticas do time no formato esperado pelo modelo.
     """
     neon_data = NEON_STATS.get(team_name, {'scored': 1.66, 'conceded': 1.05, 'games': 50})
+    fifa_ranking = FIFA_RANKING.get(team_name, 1500)
     strength = calculate_team_strength(team_name)
     
     return {
         'avg_goals_scored': neon_data['scored'],
         'avg_goals_conceded': neon_data['conceded'],
         'total_games': neon_data['games'],
-        'strength': strength
+        'fifa_ranking': fifa_ranking,
+        'strength': strength  # Mantido para compatibilidade
     }
 
 # Teste

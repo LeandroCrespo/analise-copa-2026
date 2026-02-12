@@ -1,32 +1,97 @@
 """
-Estrutura da Copa do Mundo 2026
-48 seleções, 12 grupos de 4 times cada
+Estrutura Oficial dos Grupos da Copa do Mundo 2026
+Fonte: FIFA/GE (05 dez 2025)
+48 times divididos em 12 grupos de 4 times cada
 """
 
-# Grupos da Copa 2026 (baseado no sorteio oficial)
+# Estrutura oficial dos grupos após sorteio de 05/12/2025
 GRUPOS_COPA_2026 = {
-    'A': ['United States', 'Wales', 'Panama', 'Trinidad and Tobago'],
-    'B': ['Mexico', 'Jamaica', 'Costa Rica', 'Honduras'],
-    'C': ['Canada', 'Peru', 'Chile', 'Paraguay'],
-    'D': ['Brazil', 'Colombia', 'Ecuador', 'Venezuela'],
-    'E': ['Argentina', 'Uruguay', 'Bolivia', 'Haiti'],
-    'F': ['England', 'Scotland', 'Republic of Ireland', 'Northern Ireland'],
-    'G': ['Spain', 'Portugal', 'Morocco', 'Egypt'],
-    'H': ['France', 'Netherlands', 'Belgium', 'Denmark'],
-    'I': ['Germany', 'Italy', 'Switzerland', 'Austria'],
-    'J': ['Croatia', 'Poland', 'Serbia', 'Ukraine'],
-    'K': ['Japan', 'South Korea', 'Australia', 'Iran'],
-    'L': ['Senegal', 'Nigeria', 'Cameroon', 'Ghana']
+    "A": ["Mexico", "South Africa", "Korea Republic", "Repescagem Europa D"],
+    "B": ["Canada", "Repescagem Europa A", "Qatar", "Switzerland"],
+    "C": ["Brazil", "Morocco", "Haiti", "Scotland"],
+    "D": ["United States", "Paraguay", "Australia", "Repescagem Europa C"],
+    "E": ["Germany", "Curaçao", "Côte d'Ivoire", "Ecuador"],
+    "F": ["Netherlands", "Japan", "Repescagem Europa B", "Tunisia"],
+    "G": ["Belgium", "Egypt", "Iran", "New Zealand"],
+    "H": ["Spain", "Cabo Verde", "Saudi Arabia", "Uruguay"],
+    "I": ["France", "Senegal", "Repescagem Intercontinental 2", "Norway"],
+    "J": ["Argentina", "Algeria", "Austria", "Jordan"],
+    "K": ["Portugal", "Repescagem Intercontinental 1", "Uzbekistan", "Colombia"],
+    "L": ["England", "Croatia", "Ghana", "Panama"]
 }
 
-# Mapeamento de nomes alternativos
-NOME_ALTERNATIVO = {
-    'USA': 'United States',
-    'US': 'United States',
-    'Korea Republic': 'South Korea',
-    'IR Iran': 'Iran',
-    'Ireland': 'Republic of Ireland'
+# Repescagens pendentes (a serem definidas em março 2026)
+REPESCAGENS = {
+    "Europa A": ["Italy", "Northern Ireland", "Wales", "Bosnia and Herzegovina"],
+    "Europa B": ["Ukraine", "Sweden", "Poland", "Albania"],
+    "Europa C": ["Turkey", "Romania", "Slovakia", "Kosovo"],
+    "Europa D": ["Czech Republic", "Republic of Ireland", "Denmark", "North Macedonia"],
+    "Intercontinental 1": ["DR Congo", "Jamaica", "New Caledonia"],
+    "Intercontinental 2": ["Bolivia", "Suriname", "Iraq"]
 }
+
+# Mapeamento de nomes para exibição
+DISPLAY_NAMES = {
+    "Korea Republic": "Coreia do Sul",
+    "South Africa": "África do Sul",
+    "United States": "Estados Unidos",
+    "Côte d'Ivoire": "Costa do Marfim",
+    "Saudi Arabia": "Arábia Saudita",
+    "Cabo Verde": "Cabo Verde",
+    "New Zealand": "Nova Zelândia",
+    "Czech Republic": "República Tcheca",
+    "Republic of Ireland": "Irlanda",
+    "North Macedonia": "Macedônia do Norte",
+    "Northern Ireland": "Irlanda do Norte",
+    "Bosnia and Herzegovina": "Bósnia e Herzegovina",
+    "DR Congo": "RD Congo",
+    "New Caledonia": "Nova Caledônia",
+    "Repescagem Europa A": "Repescagem Europa A",
+    "Repescagem Europa B": "Repescagem Europa B",
+    "Repescagem Europa C": "Repescagem Europa C",
+    "Repescagem Europa D": "Repescagem Europa D",
+    "Repescagem Intercontinental 1": "Repescagem Intercontinental 1",
+    "Repescagem Intercontinental 2": "Repescagem Intercontinental 2"
+}
+
+def get_display_name(team_name):
+    """Retorna nome para exibição"""
+    return DISPLAY_NAMES.get(team_name, team_name)
+
+def is_repescagem(team_name):
+    """Verifica se é uma vaga de repescagem"""
+    return team_name.startswith("Repescagem")
+
+def get_repescagem_candidates(repescagem_name):
+    """Retorna candidatos de uma repescagem"""
+    # Extrair chave (ex: "Repescagem Europa A" -> "Europa A")
+    key = repescagem_name.replace("Repescagem ", "")
+    return REPESCAGENS.get(key, [])
+
+def get_all_teams():
+    """Retorna lista de todos os times (incluindo repescagens)"""
+    teams = []
+    for grupo_teams in GRUPOS_COPA_2026.values():
+        teams.extend(grupo_teams)
+    return sorted(set(teams))
+
+def get_confirmed_teams():
+    """Retorna apenas times confirmados (sem repescagens)"""
+    all_teams = get_all_teams()
+    return [t for t in all_teams if not is_repescagem(t)]
+
+def get_grupo_info(grupo_letter):
+    """Retorna informações de um grupo"""
+    teams = GRUPOS_COPA_2026.get(grupo_letter, [])
+    
+    info = {
+        'letter': grupo_letter,
+        'teams': teams,
+        'confirmed': [t for t in teams if not is_repescagem(t)],
+        'pending': [t for t in teams if is_repescagem(t)]
+    }
+    
+    return info
 
 def get_group_matches(grupo, teams):
     """
@@ -55,7 +120,7 @@ def get_all_group_matches():
 def get_knockout_structure():
     """
     Estrutura do mata-mata
-    - Oitavas: 16 jogos (1º vs 2º de outros grupos)
+    - Oitavas: 16 jogos (1º vs 2º de outros grupos + 8 melhores 3º)
     - Quartas: 8 jogos
     - Semi: 4 jogos
     - 3º lugar: 1 jogo
@@ -130,20 +195,42 @@ def count_total_matches():
         'total': total
     }
 
+# Estatísticas
+TOTAL_GROUPS = len(GRUPOS_COPA_2026)
+TOTAL_TEAMS = 48
+CONFIRMED_TEAMS = len(get_confirmed_teams())
+PENDING_TEAMS = TOTAL_TEAMS - CONFIRMED_TEAMS
+
 if __name__ == "__main__":
     print("=" * 80)
     print("ESTRUTURA DA COPA DO MUNDO 2026")
     print("=" * 80)
     
-    print("\n📊 GRUPOS:")
-    for grupo, teams in GRUPOS_COPA_2026.items():
-        print(f"\nGrupo {grupo}:")
-        for team in teams:
-            print(f"  - {team}")
+    print(f"\n📊 Estatísticas:")
+    print(f"   Total de grupos: {TOTAL_GROUPS}")
+    print(f"   Total de times: {TOTAL_TEAMS}")
+    print(f"   Times confirmados: {CONFIRMED_TEAMS}")
+    print(f"   Vagas pendentes: {PENDING_TEAMS}")
     
-    print("\n\n🎯 TOTAL DE JOGOS:")
+    print(f"\n🏆 Grupos:\n")
+    
+    for grupo, teams in sorted(GRUPOS_COPA_2026.items()):
+        print(f"Grupo {grupo}:")
+        for team in teams:
+            if is_repescagem(team):
+                candidates = get_repescagem_candidates(team)
+                print(f"  ⏳ {team}")
+                print(f"     Candidatos: {', '.join(candidates)}")
+            else:
+                print(f"  ✅ {team}")
+        print()
+    
+    print("\n🎯 TOTAL DE JOGOS:")
     counts = count_total_matches()
     for fase, count in counts.items():
         print(f"  {fase.capitalize()}: {count}")
     
     print("\n" + "=" * 80)
+    print("✅ Estrutura oficial após sorteio de 05/12/2025")
+    print("⏳ Repescagens serão definidas em março 2026")
+    print("=" * 80)
