@@ -1,0 +1,111 @@
+{
+  "test_accuracy_score": 0.13293413173652693,
+  "test_accuracy_result": 0.5197604790419161,
+  "avg_points": 2.691017964071856,
+  "num_different_scores": 19,
+  "feature_importance": [
+    {
+      "feature": "fifa_diff",
+      "importance": 0.10892045263593891
+    },
+    {
+      "feature": "strength_diff",
+      "importance": 0.10680536001410344
+    },
+    {
+      "feature": "defense_diff",
+      "importance": 0.10214592578350412
+    },
+    {
+      "feature": "attack_diff",
+      "importance": 0.09884249650409357
+    },
+    {
+      "feature": "away_fifa",
+      "importance": 0.06965475553202799
+    },
+    {
+      "feature": "home_defense",
+      "importance": 0.06943809062791746
+    },
+    {
+      "feature": "home_attack",
+      "importance": 0.06673389758626522
+    },
+    {
+      "feature": "away_strength",
+      "importance": 0.06566424711567641
+    },
+    {
+      "feature": "home_strength",
+      "importance": 0.06522353325455903
+    },
+    {
+      "feature": "away_defense",
+      "importance": 0.06517509632868372
+    },
+    {
+      "feature": "away_attack",
+      "importance": 0.06493584598675929
+    },
+    {
+      "feature": "home_fifa",
+      "importance": 0.06209227120250298
+    },
+    {
+      "feature": "matchup_type_encoded",
+      "importance": 0.025998842530857234
+    },
+    {
+      "feature": "away_category_encoded",
+      "importance": 0.01523982439688639
+    },
+    {
+      "feature": "home_category_encoded",
+      "importance": 0.013129360500224238
+    }
+  ],
+  "test_pred_distribution": {
+    "1x0": 439,
+    "0x1": 74,
+    "1x1": 71,
+    "2x0": 67,
+    "0x0": 38,
+    "0x2": 32,
+    "2x1": 30,
+    "3x0": 22,
+    "1x2": 22,
+    "4x0": 9,
+    "4x1": 8,
+    "3x1": 8,
+    "2x2": 6,
+    "0x3": 3,
+    "5x0": 2,
+    "2x3": 1,
+    "1x3": 1,
+    "3x3": 1,
+    "0x5": 1
+  },
+  "test_real_distribution": {
+    "1x0": 103,
+    "1x1": 98,
+    "0x1": 70,
+    "0x0": 66,
+    "2x0": 60,
+    "2x1": 53,
+    "3x0": 47,
+    "0x2": 40,
+    "1x2": 36,
+    "3x1": 27,
+    "2x2": 25,
+    "0x3": 22,
+    "4x0": 20,
+    "2x3": 18,
+    "3x2": 17,
+    "4x1": 16,
+    "0x4": 15,
+    "5x0": 13,
+    "1x3": 13,
+    "5x1": 10
+  }
+}

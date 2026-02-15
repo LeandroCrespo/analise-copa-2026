@@ -1,0 +1,97 @@
+{
+  "train_accuracy": 0.25614140203714797,
+  "test_accuracy_score": 0.13652694610778443,
+  "test_accuracy_result": 0.5281437125748503,
+  "avg_points": 2.7245508982035926,
+  "feature_importance": [
+    {
+      "feature": "fifa_diff",
+      "importance": 0.11654915351026704
+    },
+    {
+      "feature": "strength_diff",
+      "importance": 0.1096270063899402
+    },
+    {
+      "feature": "attack_diff",
+      "importance": 0.10615084960649701
+    },
+    {
+      "feature": "defense_diff",
+      "importance": 0.10409138692702291
+    },
+    {
+      "feature": "home_defense",
+      "importance": 0.07362796955811864
+    },
+    {
+      "feature": "away_fifa",
+      "importance": 0.07333702792999065
+    },
+    {
+      "feature": "away_attack",
+      "importance": 0.07293297194047578
+    },
+    {
+      "feature": "away_strength",
+      "importance": 0.0723749249999546
+    },
+    {
+      "feature": "home_attack",
+      "importance": 0.07219462092431725
+    },
+    {
+      "feature": "home_fifa",
+      "importance": 0.06686259002413374
+    },
+    {
+      "feature": "away_defense",
+      "importance": 0.06647668928741865
+    },
+    {
+      "feature": "home_strength",
+      "importance": 0.06577480890186366
+    }
+  ],
+  "test_pred_distribution": {
+    "1x0": 440,
+    "1x1": 74,
+    "2x0": 71,
+    "0x1": 71,
+    "0x0": 39,
+    "0x2": 34,
+    "1x2": 25,
+    "2x1": 24,
+    "3x0": 22,
+    "3x1": 9,
+    "4x1": 8,
+    "4x0": 7,
+    "2x2": 4,
+    "0x3": 3,
+    "5x0": 2,
+    "2x3": 1,
+    "3x3": 1
+  },
+  "test_real_distribution": {
+    "1x0": 103,
+    "1x1": 98,
+    "0x1": 70,
+    "0x0": 66,
+    "2x0": 60,
+    "2x1": 53,
+    "3x0": 47,
+    "0x2": 40,
+    "1x2": 36,
+    "3x1": 27,
+    "2x2": 25,
+    "0x3": 22,
+    "4x0": 20,
+    "2x3": 18,
+    "3x2": 17,
+    "4x1": 16,
+    "0x4": 15,
+    "5x0": 13,
+    "1x3": 13,
+    "5x1": 10
+  }
+}
